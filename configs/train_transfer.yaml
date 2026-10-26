@@ -1,0 +1,27 @@
+# configs/train_transfer.yaml
+# Cross-problem transfer (SEL -> VC). Inherits the paper's scale-norm training
+# recipe unchanged; adds transfer-specific keys, all defaulted OFF so a bare run
+# behaves exactly like train_scale_norm. The transfer runner supplies
+# the per-cell values (init checkpoint, freeze flag, split files, output tag).
+
+defaults:
+  - train_scale_norm
+  - _self_
+
+train:
+  # Path to a source (SEL) checkpoint to initialize from. null => random init.
+  init_from_checkpoint: null
+  # Freeze the scenario_encoder (GNN) after init. false => full fine-tune.
+  freeze_encoder: false
+  # Unique tag appended to the checkpoint filename to avoid cross-cell collisions.
+  output_tag: ""
+  # Independent output dir for ALL transfer artifacts (never model/vertex_cover).
+  # "" -> run_dir/model (03_train.py::_model_dir); an explicit value must lie inside the
+  # run dir.
+  model_output_dir: ""
+
+data:
+  # Directory holding the persisted transfer split index files, and the specific
+  # train-budget index file. null/null => normal ratio/absolute split (unchanged).
+  split_index_dir: null
+  train_index_file: null

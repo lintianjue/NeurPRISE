@@ -1,0 +1,36 @@
+[
+  {
+    "cfg": {
+      "n_nodes": 20,
+      "n_scenarios": 50,
+      "problem": "selection",
+      "seed": 42
+    },
+    "instance_cnt": 2500,
+    "problem_name": "selection",
+    "relpath": "eval/selection/s42_i2500_n20_s50"
+  },
+  {
+    "cfg": {
+      "n_customers": 80,
+      "n_facilities": 70,
+      "n_scenarios": 100,
+      "problem": "cflp_ebp",
+      "seed": 42
+    },
+    "instance_cnt": 500,
+    "problem_name": "cflp_ebp",
+    "relpath": "eval/cflp_ebp/s42_i500_m70_n80_s100"
+  },
+  {
+    "cfg": {
+      "n_nodes": 50,
+      "n_scenarios": 10,
+      "problem": "vertex_cover",
+      "seed": 7
+    },
+    "instance_cnt": 100,
+    "problem_name": "vertex_cover",
+    "relpath": "eval/vertex_cover/s7_i100_n50_s10"
+  }
+]

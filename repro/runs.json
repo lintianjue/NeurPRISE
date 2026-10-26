@@ -1,0 +1,5663 @@
+{
+ "schema": "neurprise-runs/1",
+ "runs": [
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-150-150-50_neurprise_k6.json",
+   "id": "CFLP-150-150-50_neurprise_k6",
+   "tables": [
+    24
+   ],
+   "problem": "cflp_ebp",
+   "scale": "ultra",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-150-150-50_neurprise_k6/eval_regret/cflp_ebp/CFLP-150-150-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-30-30-100_neurprise_k8.json",
+   "id": "CFLP-30-30-100_neurprise_k8",
+   "tables": [
+    24
+   ],
+   "problem": "cflp_ebp",
+   "scale": "s100",
+   "k": 8,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-30-30-100_neurprise_k8/eval_regret/cflp_ebp/CFLP-30-30-100_neurprise_k8.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-30-30-200_neurprise_k16.json",
+   "id": "CFLP-30-30-200_neurprise_k16",
+   "tables": [
+    24
+   ],
+   "problem": "cflp_ebp",
+   "scale": "s200",
+   "k": 16,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-30-30-200_neurprise_k16/eval_regret/cflp_ebp/CFLP-30-30-200_neurprise_k16.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-30-30-50_cv_k6.json",
+   "id": "CFLP-30-30-50_cv_k6",
+   "tables": [
+    22
+   ],
+   "problem": "cflp_ebp",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "cv",
+   "auto": true,
+   "checkpoint": "architecture/CFLP-30-30-50_CV",
+   "produces": "repro/CFLP-30-30-50_cv_k6/eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k1.json",
+   "id": "CFLP-30-30-50_neurprise_k1",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-30-30-50_neurprise_k1/eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k2.json",
+   "id": "CFLP-30-30-50_neurprise_k2",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-30-30-50_neurprise_k2/eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k4.json",
+   "id": "CFLP-30-30-50_neurprise_k4",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-30-30-50_neurprise_k4/eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k6.json",
+   "id": "CFLP-30-30-50_neurprise_k6",
+   "tables": [
+    22,
+    23,
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-30-30-50_neurprise_k6/eval_regret/cflp_ebp/CFLP-30-30-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-70-70-100_neurprise_k1.json",
+   "id": "CFLP-70-70-100_neurprise_k1",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "large",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-70-70-100",
+   "produces": "repro/CFLP-70-70-100_neurprise_k1/eval_regret/cflp_ebp/CFLP-70-70-100_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-70-70-100_neurprise_k2.json",
+   "id": "CFLP-70-70-100_neurprise_k2",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "large",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-70-70-100",
+   "produces": "repro/CFLP-70-70-100_neurprise_k2/eval_regret/cflp_ebp/CFLP-70-70-100_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-70-70-100_neurprise_k4.json",
+   "id": "CFLP-70-70-100_neurprise_k4",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "large",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-70-70-100",
+   "produces": "repro/CFLP-70-70-100_neurprise_k4/eval_regret/cflp_ebp/CFLP-70-70-100_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-70-70-100_neurprise_k6.json",
+   "id": "CFLP-70-70-100_neurprise_k6",
+   "tables": [
+    23,
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "large",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-70-70-100",
+   "produces": "repro/CFLP-70-70-100_neurprise_k6/eval_regret/cflp_ebp/CFLP-70-70-100_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-70-70-50_neurprise_k1.json",
+   "id": "CFLP-70-70-50_neurprise_k1",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-70-70-50",
+   "produces": "repro/CFLP-70-70-50_neurprise_k1/eval_regret/cflp_ebp/CFLP-70-70-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-70-70-50_neurprise_k2.json",
+   "id": "CFLP-70-70-50_neurprise_k2",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-70-70-50",
+   "produces": "repro/CFLP-70-70-50_neurprise_k2/eval_regret/cflp_ebp/CFLP-70-70-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-70-70-50_neurprise_k4.json",
+   "id": "CFLP-70-70-50_neurprise_k4",
+   "tables": [
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-70-70-50",
+   "produces": "repro/CFLP-70-70-50_neurprise_k4/eval_regret/cflp_ebp/CFLP-70-70-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-70-70-50_neurprise_k6.json",
+   "id": "CFLP-70-70-50_neurprise_k6",
+   "tables": [
+    23,
+    26
+   ],
+   "problem": "cflp_ebp",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-70-70-50",
+   "produces": "repro/CFLP-70-70-50_neurprise_k6/eval_regret/cflp_ebp/CFLP-70-70-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-mm-id_neurprise_id_k6.json",
+   "id": "CFLP-mm-id_neurprise_id_k6",
+   "tables": [
+    25
+   ],
+   "problem": "cflp_ebp",
+   "scale": "mm_id",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise_id",
+   "auto": true,
+   "checkpoint": "distribution/CFLP-30-30-50_mm",
+   "produces": "repro/CFLP-mm-id_neurprise_id_k6/eval_regret/cflp_ebp/CFLP-mm-id_neurprise_id_k6.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-mm-x_neurprise_k6.json",
+   "id": "CFLP-mm-x_neurprise_k6",
+   "tables": [
+    25
+   ],
+   "problem": "cflp_ebp",
+   "scale": "mm_x",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-mm-x_neurprise_k6/eval_regret/cflp_ebp/CFLP-mm-x_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-normal-id_neurprise_id_k6.json",
+   "id": "CFLP-normal-id_neurprise_id_k6",
+   "tables": [
+    25
+   ],
+   "problem": "cflp_ebp",
+   "scale": "normal_id",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise_id",
+   "auto": true,
+   "checkpoint": "distribution/CFLP-30-30-50_normal",
+   "produces": "repro/CFLP-normal-id_neurprise_id_k6/eval_regret/cflp_ebp/CFLP-normal-id_neurprise_id_k6.json"
+  },
+  {
+   "output": "eval_regret/cflp_ebp/CFLP-normal-x_neurprise_k6.json",
+   "id": "CFLP-normal-x_neurprise_k6",
+   "tables": [
+    25
+   ],
+   "problem": "cflp_ebp",
+   "scale": "normal_x",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/CFLP-30-30-50",
+   "produces": "repro/CFLP-normal-x_neurprise_k6/eval_regret/cflp_ebp/CFLP-normal-x_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-100-50_neurprise_k1.json",
+   "id": "SEL-100-50_neurprise_k1",
+   "tables": [
+    3
+   ],
+   "problem": "selection",
+   "scale": "ultra",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-100-50_neurprise_k1/eval_regret/selection/SEL-100-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-100-50_neurprise_k2.json",
+   "id": "SEL-100-50_neurprise_k2",
+   "tables": [
+    3
+   ],
+   "problem": "selection",
+   "scale": "ultra",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-100-50_neurprise_k2/eval_regret/selection/SEL-100-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-100-50_neurprise_k4.json",
+   "id": "SEL-100-50_neurprise_k4",
+   "tables": [
+    3
+   ],
+   "problem": "selection",
+   "scale": "ultra",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-100-50_neurprise_k4/eval_regret/selection/SEL-100-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-100-50_neurprise_k6.json",
+   "id": "SEL-100-50_neurprise_k6",
+   "tables": [
+    3
+   ],
+   "problem": "selection",
+   "scale": "ultra",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-100-50_neurprise_k6/eval_regret/selection/SEL-100-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-100_neurprise_k2.json",
+   "id": "SEL-20-100_neurprise_k2",
+   "tables": [
+    4
+   ],
+   "problem": "selection",
+   "scale": "s100",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-100_neurprise_k2/eval_regret/selection/SEL-20-100_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-100_neurprise_k4.json",
+   "id": "SEL-20-100_neurprise_k4",
+   "tables": [
+    4
+   ],
+   "problem": "selection",
+   "scale": "s100",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-100_neurprise_k4/eval_regret/selection/SEL-20-100_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-100_neurprise_k8.json",
+   "id": "SEL-20-100_neurprise_k8",
+   "tables": [
+    4
+   ],
+   "problem": "selection",
+   "scale": "s100",
+   "k": 8,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-100_neurprise_k8/eval_regret/selection/SEL-20-100_neurprise_k8.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-200_neurprise_k16.json",
+   "id": "SEL-20-200_neurprise_k16",
+   "tables": [
+    4
+   ],
+   "problem": "selection",
+   "scale": "s200",
+   "k": 16,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-200_neurprise_k16/eval_regret/selection/SEL-20-200_neurprise_k16.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-200_neurprise_k4.json",
+   "id": "SEL-20-200_neurprise_k4",
+   "tables": [
+    4
+   ],
+   "problem": "selection",
+   "scale": "s200",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-200_neurprise_k4/eval_regret/selection/SEL-20-200_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-200_neurprise_k8.json",
+   "id": "SEL-20-200_neurprise_k8",
+   "tables": [
+    4
+   ],
+   "problem": "selection",
+   "scale": "s200",
+   "k": 8,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-200_neurprise_k8/eval_regret/selection/SEL-20-200_neurprise_k8.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_bce_k1.json",
+   "id": "SEL-20-50_bce_k1",
+   "tables": [
+    20
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/SEL-20-50_bce",
+   "produces": "repro/SEL-20-50_bce_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_bce_k2.json",
+   "id": "SEL-20-50_bce_k2",
+   "tables": [
+    20
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/SEL-20-50_bce",
+   "produces": "repro/SEL-20-50_bce_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_bce_k4.json",
+   "id": "SEL-20-50_bce_k4",
+   "tables": [
+    20
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/SEL-20-50_bce",
+   "produces": "repro/SEL-20-50_bce_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_bce_k6.json",
+   "id": "SEL-20-50_bce_k6",
+   "tables": [
+    20
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/SEL-20-50_bce",
+   "produces": "repro/SEL-20-50_bce_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_k1.json",
+   "id": "SEL-20-50_crossattn_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s42",
+   "produces": "repro/SEL-20-50_crossattn_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_k2.json",
+   "id": "SEL-20-50_crossattn_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s42",
+   "produces": "repro/SEL-20-50_crossattn_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_k4.json",
+   "id": "SEL-20-50_crossattn_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s42",
+   "produces": "repro/SEL-20-50_crossattn_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_k6.json",
+   "id": "SEL-20-50_crossattn_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s42",
+   "produces": "repro/SEL-20-50_crossattn_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s1_k1.json",
+   "id": "SEL-20-50_crossattn_s1_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn_s1",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s1",
+   "produces": "repro/SEL-20-50_crossattn_s1_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s1_k2.json",
+   "id": "SEL-20-50_crossattn_s1_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn_s1",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s1",
+   "produces": "repro/SEL-20-50_crossattn_s1_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s1_k4.json",
+   "id": "SEL-20-50_crossattn_s1_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn_s1",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s1",
+   "produces": "repro/SEL-20-50_crossattn_s1_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s1_k6.json",
+   "id": "SEL-20-50_crossattn_s1_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn_s1",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s1",
+   "produces": "repro/SEL-20-50_crossattn_s1_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s2_k1.json",
+   "id": "SEL-20-50_crossattn_s2_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn_s2",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s2",
+   "produces": "repro/SEL-20-50_crossattn_s2_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s2_k2.json",
+   "id": "SEL-20-50_crossattn_s2_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn_s2",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s2",
+   "produces": "repro/SEL-20-50_crossattn_s2_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s2_k4.json",
+   "id": "SEL-20-50_crossattn_s2_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn_s2",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s2",
+   "produces": "repro/SEL-20-50_crossattn_s2_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s2_k6.json",
+   "id": "SEL-20-50_crossattn_s2_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn_s2",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s2",
+   "produces": "repro/SEL-20-50_crossattn_s2_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s3_k1.json",
+   "id": "SEL-20-50_crossattn_s3_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn_s3",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s3",
+   "produces": "repro/SEL-20-50_crossattn_s3_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s3_k2.json",
+   "id": "SEL-20-50_crossattn_s3_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn_s3",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s3",
+   "produces": "repro/SEL-20-50_crossattn_s3_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s3_k4.json",
+   "id": "SEL-20-50_crossattn_s3_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn_s3",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s3",
+   "produces": "repro/SEL-20-50_crossattn_s3_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s3_k6.json",
+   "id": "SEL-20-50_crossattn_s3_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn_s3",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s3",
+   "produces": "repro/SEL-20-50_crossattn_s3_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s4_k1.json",
+   "id": "SEL-20-50_crossattn_s4_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn_s4",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s4",
+   "produces": "repro/SEL-20-50_crossattn_s4_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s4_k2.json",
+   "id": "SEL-20-50_crossattn_s4_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn_s4",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s4",
+   "produces": "repro/SEL-20-50_crossattn_s4_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s4_k4.json",
+   "id": "SEL-20-50_crossattn_s4_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn_s4",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s4",
+   "produces": "repro/SEL-20-50_crossattn_s4_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_crossattn_s4_k6.json",
+   "id": "SEL-20-50_crossattn_s4_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn_s4",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_LF_s4",
+   "produces": "repro/SEL-20-50_crossattn_s4_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_k1.json",
+   "id": "SEL-20-50_ef_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s42",
+   "produces": "repro/SEL-20-50_ef_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_k2.json",
+   "id": "SEL-20-50_ef_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s42",
+   "produces": "repro/SEL-20-50_ef_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_k4.json",
+   "id": "SEL-20-50_ef_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s42",
+   "produces": "repro/SEL-20-50_ef_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_k6.json",
+   "id": "SEL-20-50_ef_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s42",
+   "produces": "repro/SEL-20-50_ef_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s1_k1.json",
+   "id": "SEL-20-50_ef_s1_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef_s1",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s1",
+   "produces": "repro/SEL-20-50_ef_s1_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s1_k2.json",
+   "id": "SEL-20-50_ef_s1_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef_s1",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s1",
+   "produces": "repro/SEL-20-50_ef_s1_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s1_k4.json",
+   "id": "SEL-20-50_ef_s1_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef_s1",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s1",
+   "produces": "repro/SEL-20-50_ef_s1_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s1_k6.json",
+   "id": "SEL-20-50_ef_s1_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef_s1",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s1",
+   "produces": "repro/SEL-20-50_ef_s1_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s2_k1.json",
+   "id": "SEL-20-50_ef_s2_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef_s2",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s2",
+   "produces": "repro/SEL-20-50_ef_s2_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s2_k2.json",
+   "id": "SEL-20-50_ef_s2_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef_s2",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s2",
+   "produces": "repro/SEL-20-50_ef_s2_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s2_k4.json",
+   "id": "SEL-20-50_ef_s2_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef_s2",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s2",
+   "produces": "repro/SEL-20-50_ef_s2_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s2_k6.json",
+   "id": "SEL-20-50_ef_s2_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef_s2",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s2",
+   "produces": "repro/SEL-20-50_ef_s2_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s3_k1.json",
+   "id": "SEL-20-50_ef_s3_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef_s3",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s3",
+   "produces": "repro/SEL-20-50_ef_s3_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s3_k2.json",
+   "id": "SEL-20-50_ef_s3_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef_s3",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s3",
+   "produces": "repro/SEL-20-50_ef_s3_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s3_k4.json",
+   "id": "SEL-20-50_ef_s3_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef_s3",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s3",
+   "produces": "repro/SEL-20-50_ef_s3_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s3_k6.json",
+   "id": "SEL-20-50_ef_s3_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef_s3",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s3",
+   "produces": "repro/SEL-20-50_ef_s3_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s4_k1.json",
+   "id": "SEL-20-50_ef_s4_k1",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef_s4",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s4",
+   "produces": "repro/SEL-20-50_ef_s4_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s4_k2.json",
+   "id": "SEL-20-50_ef_s4_k2",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef_s4",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s4",
+   "produces": "repro/SEL-20-50_ef_s4_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s4_k4.json",
+   "id": "SEL-20-50_ef_s4_k4",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef_s4",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s4",
+   "produces": "repro/SEL-20-50_ef_s4_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_ef_s4_k6.json",
+   "id": "SEL-20-50_ef_s4_k6",
+   "tables": [
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef_s4",
+   "auto": true,
+   "checkpoint": "architecture/SEL-20-50_EF_s4",
+   "produces": "repro/SEL-20-50_ef_s4_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_neurprise_k1.json",
+   "id": "SEL-20-50_neurprise_k1",
+   "tables": [
+    1,
+    11,
+    13,
+    19,
+    20
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-50_neurprise_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_neurprise_k2.json",
+   "id": "SEL-20-50_neurprise_k2",
+   "tables": [
+    1,
+    11,
+    13,
+    19,
+    20
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-50_neurprise_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_neurprise_k4.json",
+   "id": "SEL-20-50_neurprise_k4",
+   "tables": [
+    1,
+    11,
+    13,
+    19,
+    20
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-50_neurprise_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_neurprise_k6.json",
+   "id": "SEL-20-50_neurprise_k6",
+   "tables": [
+    1,
+    11,
+    13,
+    19,
+    20
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-20-50_neurprise_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed1_k1.json",
+   "id": "SEL-20-50_seed1_k1",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "seed1",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s1",
+   "produces": "repro/SEL-20-50_seed1_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed1_k2.json",
+   "id": "SEL-20-50_seed1_k2",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "seed1",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s1",
+   "produces": "repro/SEL-20-50_seed1_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed1_k4.json",
+   "id": "SEL-20-50_seed1_k4",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "seed1",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s1",
+   "produces": "repro/SEL-20-50_seed1_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed1_k6.json",
+   "id": "SEL-20-50_seed1_k6",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "seed1",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s1",
+   "produces": "repro/SEL-20-50_seed1_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed2_k1.json",
+   "id": "SEL-20-50_seed2_k1",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "seed2",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s2",
+   "produces": "repro/SEL-20-50_seed2_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed2_k2.json",
+   "id": "SEL-20-50_seed2_k2",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "seed2",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s2",
+   "produces": "repro/SEL-20-50_seed2_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed2_k4.json",
+   "id": "SEL-20-50_seed2_k4",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "seed2",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s2",
+   "produces": "repro/SEL-20-50_seed2_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed2_k6.json",
+   "id": "SEL-20-50_seed2_k6",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "seed2",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s2",
+   "produces": "repro/SEL-20-50_seed2_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed3_k1.json",
+   "id": "SEL-20-50_seed3_k1",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "seed3",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s3",
+   "produces": "repro/SEL-20-50_seed3_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed3_k2.json",
+   "id": "SEL-20-50_seed3_k2",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "seed3",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s3",
+   "produces": "repro/SEL-20-50_seed3_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed3_k4.json",
+   "id": "SEL-20-50_seed3_k4",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "seed3",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s3",
+   "produces": "repro/SEL-20-50_seed3_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed3_k6.json",
+   "id": "SEL-20-50_seed3_k6",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "seed3",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s3",
+   "produces": "repro/SEL-20-50_seed3_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed4_k1.json",
+   "id": "SEL-20-50_seed4_k1",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "seed4",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s4",
+   "produces": "repro/SEL-20-50_seed4_k1/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed4_k2.json",
+   "id": "SEL-20-50_seed4_k2",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "seed4",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s4",
+   "produces": "repro/SEL-20-50_seed4_k2/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed4_k4.json",
+   "id": "SEL-20-50_seed4_k4",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "seed4",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s4",
+   "produces": "repro/SEL-20-50_seed4_k4/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_seed4_k6.json",
+   "id": "SEL-20-50_seed4_k6",
+   "tables": [
+    13,
+    19
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "seed4",
+   "auto": true,
+   "checkpoint": "seeds/SEL-20-50_s4",
+   "produces": "repro/SEL-20-50_seed4_k6/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_t1500_k1_FIXED.json",
+   "id": "SEL-20-50_t1500_k1_FIXED",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N1500",
+   "produces": "repro/SEL-20-50_t1500_k1_FIXED/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_t1500_k2_FIXED.json",
+   "id": "SEL-20-50_t1500_k2_FIXED",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N1500",
+   "produces": "repro/SEL-20-50_t1500_k2_FIXED/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_t1500_k4_FIXED.json",
+   "id": "SEL-20-50_t1500_k4_FIXED",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N1500",
+   "produces": "repro/SEL-20-50_t1500_k4_FIXED/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_t1500_k6_FIXED.json",
+   "id": "SEL-20-50_t1500_k6_FIXED",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N1500",
+   "produces": "repro/SEL-20-50_t1500_k6_FIXED/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_t500_k1_FIXED.json",
+   "id": "SEL-20-50_t500_k1_FIXED",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N500",
+   "produces": "repro/SEL-20-50_t500_k1_FIXED/eval_regret/selection/SEL-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_t500_k2_FIXED.json",
+   "id": "SEL-20-50_t500_k2_FIXED",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N500",
+   "produces": "repro/SEL-20-50_t500_k2_FIXED/eval_regret/selection/SEL-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_t500_k4_FIXED.json",
+   "id": "SEL-20-50_t500_k4_FIXED",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N500",
+   "produces": "repro/SEL-20-50_t500_k4_FIXED/eval_regret/selection/SEL-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-20-50_t500_k6_FIXED.json",
+   "id": "SEL-20-50_t500_k6_FIXED",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N500",
+   "produces": "repro/SEL-20-50_t500_k6_FIXED/eval_regret/selection/SEL-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-100_neurprise_k1.json",
+   "id": "SEL-50-100_neurprise_k1",
+   "tables": [
+    2,
+    10
+   ],
+   "problem": "selection",
+   "scale": "large",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-50-100",
+   "produces": "repro/SEL-50-100_neurprise_k1/eval_regret/selection/SEL-50-100_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-100_neurprise_k2.json",
+   "id": "SEL-50-100_neurprise_k2",
+   "tables": [
+    2,
+    10
+   ],
+   "problem": "selection",
+   "scale": "large",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-50-100",
+   "produces": "repro/SEL-50-100_neurprise_k2/eval_regret/selection/SEL-50-100_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-100_neurprise_k4.json",
+   "id": "SEL-50-100_neurprise_k4",
+   "tables": [
+    2,
+    10
+   ],
+   "problem": "selection",
+   "scale": "large",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-50-100",
+   "produces": "repro/SEL-50-100_neurprise_k4/eval_regret/selection/SEL-50-100_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-100_neurprise_k6.json",
+   "id": "SEL-50-100_neurprise_k6",
+   "tables": [
+    2,
+    10
+   ],
+   "problem": "selection",
+   "scale": "large",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-50-100",
+   "produces": "repro/SEL-50-100_neurprise_k6/eval_regret/selection/SEL-50-100_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-100_train_small_k1.json",
+   "id": "SEL-50-100_train_small_k1",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "large",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-100_train_small_k1/eval_regret/selection/SEL-50-100_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-100_train_small_k2.json",
+   "id": "SEL-50-100_train_small_k2",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "large",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-100_train_small_k2/eval_regret/selection/SEL-50-100_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-100_train_small_k4.json",
+   "id": "SEL-50-100_train_small_k4",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "large",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-100_train_small_k4/eval_regret/selection/SEL-50-100_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-100_train_small_k6.json",
+   "id": "SEL-50-100_train_small_k6",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "large",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-100_train_small_k6/eval_regret/selection/SEL-50-100_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_bce_k1.json",
+   "id": "SEL-50-50_bce_k1",
+   "tables": [
+    20
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/SEL-50-50_bce",
+   "produces": "repro/SEL-50-50_bce_k1/eval_regret/selection/SEL-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_bce_k2.json",
+   "id": "SEL-50-50_bce_k2",
+   "tables": [
+    20
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/SEL-50-50_bce",
+   "produces": "repro/SEL-50-50_bce_k2/eval_regret/selection/SEL-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_bce_k4.json",
+   "id": "SEL-50-50_bce_k4",
+   "tables": [
+    20
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/SEL-50-50_bce",
+   "produces": "repro/SEL-50-50_bce_k4/eval_regret/selection/SEL-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_bce_k6.json",
+   "id": "SEL-50-50_bce_k6",
+   "tables": [
+    20
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/SEL-50-50_bce",
+   "produces": "repro/SEL-50-50_bce_k6/eval_regret/selection/SEL-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_neurprise_k1.json",
+   "id": "SEL-50-50_neurprise_k1",
+   "tables": [
+    2,
+    20
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-50-50",
+   "produces": "repro/SEL-50-50_neurprise_k1/eval_regret/selection/SEL-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_neurprise_k2.json",
+   "id": "SEL-50-50_neurprise_k2",
+   "tables": [
+    2,
+    20
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-50-50",
+   "produces": "repro/SEL-50-50_neurprise_k2/eval_regret/selection/SEL-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_neurprise_k4.json",
+   "id": "SEL-50-50_neurprise_k4",
+   "tables": [
+    2,
+    20
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-50-50",
+   "produces": "repro/SEL-50-50_neurprise_k4/eval_regret/selection/SEL-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_neurprise_k6.json",
+   "id": "SEL-50-50_neurprise_k6",
+   "tables": [
+    2,
+    20
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-50-50",
+   "produces": "repro/SEL-50-50_neurprise_k6/eval_regret/selection/SEL-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t1500_k1.json",
+   "id": "SEL-50-50_t1500_k1",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N1500",
+   "produces": "repro/SEL-50-50_t1500_k1/eval_regret/selection/SEL-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t1500_k2.json",
+   "id": "SEL-50-50_t1500_k2",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N1500",
+   "produces": "repro/SEL-50-50_t1500_k2/eval_regret/selection/SEL-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t1500_k4.json",
+   "id": "SEL-50-50_t1500_k4",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N1500",
+   "produces": "repro/SEL-50-50_t1500_k4/eval_regret/selection/SEL-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t1500_k6.json",
+   "id": "SEL-50-50_t1500_k6",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N1500",
+   "produces": "repro/SEL-50-50_t1500_k6/eval_regret/selection/SEL-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t2000_k1.json",
+   "id": "SEL-50-50_t2000_k1",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t2000",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-50_t2000_k1/eval_regret/selection/SEL-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t2000_k2.json",
+   "id": "SEL-50-50_t2000_k2",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t2000",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-50_t2000_k2/eval_regret/selection/SEL-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t2000_k4.json",
+   "id": "SEL-50-50_t2000_k4",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t2000",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-50_t2000_k4/eval_regret/selection/SEL-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t2000_k6.json",
+   "id": "SEL-50-50_t2000_k6",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t2000",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-50_t2000_k6/eval_regret/selection/SEL-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t500_k1.json",
+   "id": "SEL-50-50_t500_k1",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N500",
+   "produces": "repro/SEL-50-50_t500_k1/eval_regret/selection/SEL-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t500_k2.json",
+   "id": "SEL-50-50_t500_k2",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N500",
+   "produces": "repro/SEL-50-50_t500_k2/eval_regret/selection/SEL-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t500_k4.json",
+   "id": "SEL-50-50_t500_k4",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N500",
+   "produces": "repro/SEL-50-50_t500_k4/eval_regret/selection/SEL-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_t500_k6.json",
+   "id": "SEL-50-50_t500_k6",
+   "tables": [
+    11
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/SEL-20-50_N500",
+   "produces": "repro/SEL-50-50_t500_k6/eval_regret/selection/SEL-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_target_k1.json",
+   "id": "SEL-50-50_target_k1",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "target",
+   "auto": true,
+   "checkpoint": "main/SEL-50-50",
+   "produces": "repro/SEL-50-50_target_k1/eval_regret/selection/SEL-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_target_k2.json",
+   "id": "SEL-50-50_target_k2",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "target",
+   "auto": true,
+   "checkpoint": "main/SEL-50-50",
+   "produces": "repro/SEL-50-50_target_k2/eval_regret/selection/SEL-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_target_k4.json",
+   "id": "SEL-50-50_target_k4",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "target",
+   "auto": true,
+   "checkpoint": "main/SEL-50-50",
+   "produces": "repro/SEL-50-50_target_k4/eval_regret/selection/SEL-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_target_k6.json",
+   "id": "SEL-50-50_target_k6",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "target",
+   "auto": true,
+   "checkpoint": "main/SEL-50-50",
+   "produces": "repro/SEL-50-50_target_k6/eval_regret/selection/SEL-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_train_small_k1.json",
+   "id": "SEL-50-50_train_small_k1",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-50_train_small_k1/eval_regret/selection/SEL-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_train_small_k2.json",
+   "id": "SEL-50-50_train_small_k2",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-50_train_small_k2/eval_regret/selection/SEL-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_train_small_k4.json",
+   "id": "SEL-50-50_train_small_k4",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-50_train_small_k4/eval_regret/selection/SEL-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-50-50_train_small_k6.json",
+   "id": "SEL-50-50_train_small_k6",
+   "tables": [
+    10
+   ],
+   "problem": "selection",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-50-50_train_small_k6/eval_regret/selection/SEL-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-mm-id_neurprise_k1.json",
+   "id": "SEL-mm-id_neurprise_k1",
+   "tables": [
+    6
+   ],
+   "problem": "selection",
+   "scale": "mm_id",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/SEL-20-50_mm",
+   "produces": "repro/SEL-mm-id_neurprise_k1/eval_regret/selection/SEL-mm-id_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-mm-id_neurprise_k2.json",
+   "id": "SEL-mm-id_neurprise_k2",
+   "tables": [
+    6
+   ],
+   "problem": "selection",
+   "scale": "mm_id",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/SEL-20-50_mm",
+   "produces": "repro/SEL-mm-id_neurprise_k2/eval_regret/selection/SEL-mm-id_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-mm-id_neurprise_k4.json",
+   "id": "SEL-mm-id_neurprise_k4",
+   "tables": [
+    6
+   ],
+   "problem": "selection",
+   "scale": "mm_id",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/SEL-20-50_mm",
+   "produces": "repro/SEL-mm-id_neurprise_k4/eval_regret/selection/SEL-mm-id_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-mm-id_neurprise_k6.json",
+   "id": "SEL-mm-id_neurprise_k6",
+   "tables": [
+    6
+   ],
+   "problem": "selection",
+   "scale": "mm_id",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/SEL-20-50_mm",
+   "produces": "repro/SEL-mm-id_neurprise_k6/eval_regret/selection/SEL-mm-id_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-mm-x_neurprise_k1.json",
+   "id": "SEL-mm-x_neurprise_k1",
+   "tables": [
+    6
+   ],
+   "problem": "selection",
+   "scale": "mm_x",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-mm-x_neurprise_k1/eval_regret/selection/SEL-mm-x_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-mm-x_neurprise_k2.json",
+   "id": "SEL-mm-x_neurprise_k2",
+   "tables": [
+    6
+   ],
+   "problem": "selection",
+   "scale": "mm_x",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-mm-x_neurprise_k2/eval_regret/selection/SEL-mm-x_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-mm-x_neurprise_k4.json",
+   "id": "SEL-mm-x_neurprise_k4",
+   "tables": [
+    6
+   ],
+   "problem": "selection",
+   "scale": "mm_x",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-mm-x_neurprise_k4/eval_regret/selection/SEL-mm-x_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-mm-x_neurprise_k6.json",
+   "id": "SEL-mm-x_neurprise_k6",
+   "tables": [
+    6
+   ],
+   "problem": "selection",
+   "scale": "mm_x",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-mm-x_neurprise_k6/eval_regret/selection/SEL-mm-x_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-normal-id_neurprise_k1.json",
+   "id": "SEL-normal-id_neurprise_k1",
+   "tables": [
+    5
+   ],
+   "problem": "selection",
+   "scale": "normal_id",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/SEL-20-50_normal",
+   "produces": "repro/SEL-normal-id_neurprise_k1/eval_regret/selection/SEL-normal-id_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-normal-id_neurprise_k2.json",
+   "id": "SEL-normal-id_neurprise_k2",
+   "tables": [
+    5
+   ],
+   "problem": "selection",
+   "scale": "normal_id",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/SEL-20-50_normal",
+   "produces": "repro/SEL-normal-id_neurprise_k2/eval_regret/selection/SEL-normal-id_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-normal-id_neurprise_k4.json",
+   "id": "SEL-normal-id_neurprise_k4",
+   "tables": [
+    5
+   ],
+   "problem": "selection",
+   "scale": "normal_id",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/SEL-20-50_normal",
+   "produces": "repro/SEL-normal-id_neurprise_k4/eval_regret/selection/SEL-normal-id_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-normal-id_neurprise_k6.json",
+   "id": "SEL-normal-id_neurprise_k6",
+   "tables": [
+    5
+   ],
+   "problem": "selection",
+   "scale": "normal_id",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/SEL-20-50_normal",
+   "produces": "repro/SEL-normal-id_neurprise_k6/eval_regret/selection/SEL-normal-id_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-normal-x_neurprise_k1.json",
+   "id": "SEL-normal-x_neurprise_k1",
+   "tables": [
+    5
+   ],
+   "problem": "selection",
+   "scale": "normal_x",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-normal-x_neurprise_k1/eval_regret/selection/SEL-normal-x_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-normal-x_neurprise_k2.json",
+   "id": "SEL-normal-x_neurprise_k2",
+   "tables": [
+    5
+   ],
+   "problem": "selection",
+   "scale": "normal_x",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-normal-x_neurprise_k2/eval_regret/selection/SEL-normal-x_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-normal-x_neurprise_k4.json",
+   "id": "SEL-normal-x_neurprise_k4",
+   "tables": [
+    5
+   ],
+   "problem": "selection",
+   "scale": "normal_x",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-normal-x_neurprise_k4/eval_regret/selection/SEL-normal-x_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/selection/SEL-normal-x_neurprise_k6.json",
+   "id": "SEL-normal-x_neurprise_k6",
+   "tables": [
+    5
+   ],
+   "problem": "selection",
+   "scale": "normal_x",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/SEL-20-50",
+   "produces": "repro/SEL-normal-x_neurprise_k6/eval_regret/selection/SEL-normal-x_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-100-50_neurprise_k1.json",
+   "id": "VC-100-50_neurprise_k1",
+   "tables": [
+    3
+   ],
+   "problem": "vertex_cover",
+   "scale": "ultra",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-100-50_neurprise_k1/eval_regret/vertex_cover/VC-100-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-100-50_neurprise_k2.json",
+   "id": "VC-100-50_neurprise_k2",
+   "tables": [
+    3
+   ],
+   "problem": "vertex_cover",
+   "scale": "ultra",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-100-50_neurprise_k2/eval_regret/vertex_cover/VC-100-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-100-50_neurprise_k4.json",
+   "id": "VC-100-50_neurprise_k4",
+   "tables": [
+    3
+   ],
+   "problem": "vertex_cover",
+   "scale": "ultra",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-100-50_neurprise_k4/eval_regret/vertex_cover/VC-100-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-100-50_neurprise_k6.json",
+   "id": "VC-100-50_neurprise_k6",
+   "tables": [
+    3
+   ],
+   "problem": "vertex_cover",
+   "scale": "ultra",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-100-50_neurprise_k6/eval_regret/vertex_cover/VC-100-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-100_neurprise_k2.json",
+   "id": "VC-20-100_neurprise_k2",
+   "tables": [
+    4
+   ],
+   "problem": "vertex_cover",
+   "scale": "s100",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-100_neurprise_k2/eval_regret/vertex_cover/VC-20-100_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-100_neurprise_k4.json",
+   "id": "VC-20-100_neurprise_k4",
+   "tables": [
+    4
+   ],
+   "problem": "vertex_cover",
+   "scale": "s100",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-100_neurprise_k4/eval_regret/vertex_cover/VC-20-100_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-100_neurprise_k8.json",
+   "id": "VC-20-100_neurprise_k8",
+   "tables": [
+    4
+   ],
+   "problem": "vertex_cover",
+   "scale": "s100",
+   "k": 8,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-100_neurprise_k8/eval_regret/vertex_cover/VC-20-100_neurprise_k8.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-200_neurprise_k16.json",
+   "id": "VC-20-200_neurprise_k16",
+   "tables": [
+    4
+   ],
+   "problem": "vertex_cover",
+   "scale": "s200",
+   "k": 16,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-200_neurprise_k16/eval_regret/vertex_cover/VC-20-200_neurprise_k16.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-200_neurprise_k4.json",
+   "id": "VC-20-200_neurprise_k4",
+   "tables": [
+    4
+   ],
+   "problem": "vertex_cover",
+   "scale": "s200",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-200_neurprise_k4/eval_regret/vertex_cover/VC-20-200_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-200_neurprise_k8.json",
+   "id": "VC-20-200_neurprise_k8",
+   "tables": [
+    4
+   ],
+   "problem": "vertex_cover",
+   "scale": "s200",
+   "k": 8,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-200_neurprise_k8/eval_regret/vertex_cover/VC-20-200_neurprise_k8.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_bce_k1.json",
+   "id": "VC-20-50_bce_k1",
+   "tables": [
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/VC-20-50_bce",
+   "produces": "repro/VC-20-50_bce_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_bce_k2.json",
+   "id": "VC-20-50_bce_k2",
+   "tables": [
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/VC-20-50_bce",
+   "produces": "repro/VC-20-50_bce_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_bce_k4.json",
+   "id": "VC-20-50_bce_k4",
+   "tables": [
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/VC-20-50_bce",
+   "produces": "repro/VC-20-50_bce_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_bce_k6.json",
+   "id": "VC-20-50_bce_k6",
+   "tables": [
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/VC-20-50_bce",
+   "produces": "repro/VC-20-50_bce_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_k1.json",
+   "id": "VC-20-50_crossattn_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s42",
+   "produces": "repro/VC-20-50_crossattn_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_k2.json",
+   "id": "VC-20-50_crossattn_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s42",
+   "produces": "repro/VC-20-50_crossattn_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_k4.json",
+   "id": "VC-20-50_crossattn_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s42",
+   "produces": "repro/VC-20-50_crossattn_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_k6.json",
+   "id": "VC-20-50_crossattn_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s42",
+   "produces": "repro/VC-20-50_crossattn_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s1_k1.json",
+   "id": "VC-20-50_crossattn_s1_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn_s1",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s1",
+   "produces": "repro/VC-20-50_crossattn_s1_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s1_k2.json",
+   "id": "VC-20-50_crossattn_s1_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn_s1",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s1",
+   "produces": "repro/VC-20-50_crossattn_s1_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s1_k4.json",
+   "id": "VC-20-50_crossattn_s1_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn_s1",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s1",
+   "produces": "repro/VC-20-50_crossattn_s1_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s1_k6.json",
+   "id": "VC-20-50_crossattn_s1_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn_s1",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s1",
+   "produces": "repro/VC-20-50_crossattn_s1_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s2_k1.json",
+   "id": "VC-20-50_crossattn_s2_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn_s2",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s2",
+   "produces": "repro/VC-20-50_crossattn_s2_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s2_k2.json",
+   "id": "VC-20-50_crossattn_s2_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn_s2",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s2",
+   "produces": "repro/VC-20-50_crossattn_s2_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s2_k4.json",
+   "id": "VC-20-50_crossattn_s2_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn_s2",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s2",
+   "produces": "repro/VC-20-50_crossattn_s2_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s2_k6.json",
+   "id": "VC-20-50_crossattn_s2_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn_s2",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s2",
+   "produces": "repro/VC-20-50_crossattn_s2_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s3_k1.json",
+   "id": "VC-20-50_crossattn_s3_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn_s3",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s3",
+   "produces": "repro/VC-20-50_crossattn_s3_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s3_k2.json",
+   "id": "VC-20-50_crossattn_s3_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn_s3",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s3",
+   "produces": "repro/VC-20-50_crossattn_s3_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s3_k4.json",
+   "id": "VC-20-50_crossattn_s3_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn_s3",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s3",
+   "produces": "repro/VC-20-50_crossattn_s3_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s3_k6.json",
+   "id": "VC-20-50_crossattn_s3_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn_s3",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s3",
+   "produces": "repro/VC-20-50_crossattn_s3_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s4_k1.json",
+   "id": "VC-20-50_crossattn_s4_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "crossattn_s4",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s4",
+   "produces": "repro/VC-20-50_crossattn_s4_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s4_k2.json",
+   "id": "VC-20-50_crossattn_s4_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "crossattn_s4",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s4",
+   "produces": "repro/VC-20-50_crossattn_s4_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s4_k4.json",
+   "id": "VC-20-50_crossattn_s4_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "crossattn_s4",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s4",
+   "produces": "repro/VC-20-50_crossattn_s4_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_crossattn_s4_k6.json",
+   "id": "VC-20-50_crossattn_s4_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "crossattn_s4",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_LF_s4",
+   "produces": "repro/VC-20-50_crossattn_s4_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_k1.json",
+   "id": "VC-20-50_ef_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s42",
+   "produces": "repro/VC-20-50_ef_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_k2.json",
+   "id": "VC-20-50_ef_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s42",
+   "produces": "repro/VC-20-50_ef_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_k4.json",
+   "id": "VC-20-50_ef_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s42",
+   "produces": "repro/VC-20-50_ef_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_k6.json",
+   "id": "VC-20-50_ef_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s42",
+   "produces": "repro/VC-20-50_ef_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s1_k1.json",
+   "id": "VC-20-50_ef_s1_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef_s1",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s1",
+   "produces": "repro/VC-20-50_ef_s1_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s1_k2.json",
+   "id": "VC-20-50_ef_s1_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef_s1",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s1",
+   "produces": "repro/VC-20-50_ef_s1_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s1_k4.json",
+   "id": "VC-20-50_ef_s1_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef_s1",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s1",
+   "produces": "repro/VC-20-50_ef_s1_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s1_k6.json",
+   "id": "VC-20-50_ef_s1_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef_s1",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s1",
+   "produces": "repro/VC-20-50_ef_s1_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s2_k1.json",
+   "id": "VC-20-50_ef_s2_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef_s2",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s2",
+   "produces": "repro/VC-20-50_ef_s2_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s2_k2.json",
+   "id": "VC-20-50_ef_s2_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef_s2",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s2",
+   "produces": "repro/VC-20-50_ef_s2_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s2_k4.json",
+   "id": "VC-20-50_ef_s2_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef_s2",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s2",
+   "produces": "repro/VC-20-50_ef_s2_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s2_k6.json",
+   "id": "VC-20-50_ef_s2_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef_s2",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s2",
+   "produces": "repro/VC-20-50_ef_s2_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s3_k1.json",
+   "id": "VC-20-50_ef_s3_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef_s3",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s3",
+   "produces": "repro/VC-20-50_ef_s3_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s3_k2.json",
+   "id": "VC-20-50_ef_s3_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef_s3",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s3",
+   "produces": "repro/VC-20-50_ef_s3_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s3_k4.json",
+   "id": "VC-20-50_ef_s3_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef_s3",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s3",
+   "produces": "repro/VC-20-50_ef_s3_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s3_k6.json",
+   "id": "VC-20-50_ef_s3_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef_s3",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s3",
+   "produces": "repro/VC-20-50_ef_s3_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s4_k1.json",
+   "id": "VC-20-50_ef_s4_k1",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "ef_s4",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s4",
+   "produces": "repro/VC-20-50_ef_s4_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s4_k2.json",
+   "id": "VC-20-50_ef_s4_k2",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "ef_s4",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s4",
+   "produces": "repro/VC-20-50_ef_s4_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s4_k4.json",
+   "id": "VC-20-50_ef_s4_k4",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "ef_s4",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s4",
+   "produces": "repro/VC-20-50_ef_s4_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_ef_s4_k6.json",
+   "id": "VC-20-50_ef_s4_k6",
+   "tables": [
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "ef_s4",
+   "auto": true,
+   "checkpoint": "architecture/VC-20-50_EF_s4",
+   "produces": "repro/VC-20-50_ef_s4_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_neurprise_k1.json",
+   "id": "VC-20-50_neurprise_k1",
+   "tables": [
+    1,
+    11,
+    13,
+    18,
+    19,
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-50_neurprise_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_neurprise_k2.json",
+   "id": "VC-20-50_neurprise_k2",
+   "tables": [
+    1,
+    11,
+    13,
+    18,
+    19,
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-50_neurprise_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_neurprise_k4.json",
+   "id": "VC-20-50_neurprise_k4",
+   "tables": [
+    1,
+    11,
+    13,
+    18,
+    19,
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-50_neurprise_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_neurprise_k6.json",
+   "id": "VC-20-50_neurprise_k6",
+   "tables": [
+    1,
+    11,
+    13,
+    18,
+    19,
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-20-50_neurprise_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed1_k1.json",
+   "id": "VC-20-50_seed1_k1",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "seed1",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s1",
+   "produces": "repro/VC-20-50_seed1_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed1_k2.json",
+   "id": "VC-20-50_seed1_k2",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "seed1",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s1",
+   "produces": "repro/VC-20-50_seed1_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed1_k4.json",
+   "id": "VC-20-50_seed1_k4",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "seed1",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s1",
+   "produces": "repro/VC-20-50_seed1_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed1_k6.json",
+   "id": "VC-20-50_seed1_k6",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "seed1",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s1",
+   "produces": "repro/VC-20-50_seed1_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed2_k1.json",
+   "id": "VC-20-50_seed2_k1",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "seed2",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s2",
+   "produces": "repro/VC-20-50_seed2_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed2_k2.json",
+   "id": "VC-20-50_seed2_k2",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "seed2",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s2",
+   "produces": "repro/VC-20-50_seed2_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed2_k4.json",
+   "id": "VC-20-50_seed2_k4",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "seed2",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s2",
+   "produces": "repro/VC-20-50_seed2_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed2_k6.json",
+   "id": "VC-20-50_seed2_k6",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "seed2",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s2",
+   "produces": "repro/VC-20-50_seed2_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed3_k1.json",
+   "id": "VC-20-50_seed3_k1",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "seed3",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s3",
+   "produces": "repro/VC-20-50_seed3_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed3_k2.json",
+   "id": "VC-20-50_seed3_k2",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "seed3",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s3",
+   "produces": "repro/VC-20-50_seed3_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed3_k4.json",
+   "id": "VC-20-50_seed3_k4",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "seed3",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s3",
+   "produces": "repro/VC-20-50_seed3_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed3_k6.json",
+   "id": "VC-20-50_seed3_k6",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "seed3",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s3",
+   "produces": "repro/VC-20-50_seed3_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed4_k1.json",
+   "id": "VC-20-50_seed4_k1",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "seed4",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s4",
+   "produces": "repro/VC-20-50_seed4_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed4_k2.json",
+   "id": "VC-20-50_seed4_k2",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "seed4",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s4",
+   "produces": "repro/VC-20-50_seed4_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed4_k4.json",
+   "id": "VC-20-50_seed4_k4",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "seed4",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s4",
+   "produces": "repro/VC-20-50_seed4_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_seed4_k6.json",
+   "id": "VC-20-50_seed4_k6",
+   "tables": [
+    13,
+    18,
+    19
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "seed4",
+   "auto": true,
+   "checkpoint": "seeds/VC-20-50_s4",
+   "produces": "repro/VC-20-50_seed4_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s1_k1.json",
+   "id": "VC-20-50_sup-noise010_s1_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s1",
+   "produces": "repro/VC-20-50_sup-noise010_s1_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s1_k2.json",
+   "id": "VC-20-50_sup-noise010_s1_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s1",
+   "produces": "repro/VC-20-50_sup-noise010_s1_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s1_k4.json",
+   "id": "VC-20-50_sup-noise010_s1_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s1",
+   "produces": "repro/VC-20-50_sup-noise010_s1_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s1_k6.json",
+   "id": "VC-20-50_sup-noise010_s1_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s1",
+   "produces": "repro/VC-20-50_sup-noise010_s1_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s2_k1.json",
+   "id": "VC-20-50_sup-noise010_s2_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s2",
+   "produces": "repro/VC-20-50_sup-noise010_s2_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s2_k2.json",
+   "id": "VC-20-50_sup-noise010_s2_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s2",
+   "produces": "repro/VC-20-50_sup-noise010_s2_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s2_k4.json",
+   "id": "VC-20-50_sup-noise010_s2_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s2",
+   "produces": "repro/VC-20-50_sup-noise010_s2_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s2_k6.json",
+   "id": "VC-20-50_sup-noise010_s2_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s2",
+   "produces": "repro/VC-20-50_sup-noise010_s2_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s3_k1.json",
+   "id": "VC-20-50_sup-noise010_s3_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s3",
+   "produces": "repro/VC-20-50_sup-noise010_s3_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s3_k2.json",
+   "id": "VC-20-50_sup-noise010_s3_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s3",
+   "produces": "repro/VC-20-50_sup-noise010_s3_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s3_k4.json",
+   "id": "VC-20-50_sup-noise010_s3_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s3",
+   "produces": "repro/VC-20-50_sup-noise010_s3_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s3_k6.json",
+   "id": "VC-20-50_sup-noise010_s3_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s3",
+   "produces": "repro/VC-20-50_sup-noise010_s3_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s42_k1.json",
+   "id": "VC-20-50_sup-noise010_s42_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s42",
+   "produces": "repro/VC-20-50_sup-noise010_s42_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s42_k2.json",
+   "id": "VC-20-50_sup-noise010_s42_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s42",
+   "produces": "repro/VC-20-50_sup-noise010_s42_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s42_k4.json",
+   "id": "VC-20-50_sup-noise010_s42_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s42",
+   "produces": "repro/VC-20-50_sup-noise010_s42_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s42_k6.json",
+   "id": "VC-20-50_sup-noise010_s42_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s42",
+   "produces": "repro/VC-20-50_sup-noise010_s42_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s4_k1.json",
+   "id": "VC-20-50_sup-noise010_s4_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s4",
+   "produces": "repro/VC-20-50_sup-noise010_s4_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s4_k2.json",
+   "id": "VC-20-50_sup-noise010_s4_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s4",
+   "produces": "repro/VC-20-50_sup-noise010_s4_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s4_k4.json",
+   "id": "VC-20-50_sup-noise010_s4_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s4",
+   "produces": "repro/VC-20-50_sup-noise010_s4_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise010_s4_k6.json",
+   "id": "VC-20-50_sup-noise010_s4_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise010_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise010_s4",
+   "produces": "repro/VC-20-50_sup-noise010_s4_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s1_k1.json",
+   "id": "VC-20-50_sup-noise070_s1_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s1",
+   "produces": "repro/VC-20-50_sup-noise070_s1_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s1_k2.json",
+   "id": "VC-20-50_sup-noise070_s1_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s1",
+   "produces": "repro/VC-20-50_sup-noise070_s1_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s1_k4.json",
+   "id": "VC-20-50_sup-noise070_s1_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s1",
+   "produces": "repro/VC-20-50_sup-noise070_s1_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s1_k6.json",
+   "id": "VC-20-50_sup-noise070_s1_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s1",
+   "produces": "repro/VC-20-50_sup-noise070_s1_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s2_k1.json",
+   "id": "VC-20-50_sup-noise070_s2_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s2",
+   "produces": "repro/VC-20-50_sup-noise070_s2_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s2_k2.json",
+   "id": "VC-20-50_sup-noise070_s2_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s2",
+   "produces": "repro/VC-20-50_sup-noise070_s2_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s2_k4.json",
+   "id": "VC-20-50_sup-noise070_s2_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s2",
+   "produces": "repro/VC-20-50_sup-noise070_s2_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s2_k6.json",
+   "id": "VC-20-50_sup-noise070_s2_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s2",
+   "produces": "repro/VC-20-50_sup-noise070_s2_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s3_k1.json",
+   "id": "VC-20-50_sup-noise070_s3_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s3",
+   "produces": "repro/VC-20-50_sup-noise070_s3_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s3_k2.json",
+   "id": "VC-20-50_sup-noise070_s3_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s3",
+   "produces": "repro/VC-20-50_sup-noise070_s3_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s3_k4.json",
+   "id": "VC-20-50_sup-noise070_s3_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s3",
+   "produces": "repro/VC-20-50_sup-noise070_s3_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s3_k6.json",
+   "id": "VC-20-50_sup-noise070_s3_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s3",
+   "produces": "repro/VC-20-50_sup-noise070_s3_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s42_k1.json",
+   "id": "VC-20-50_sup-noise070_s42_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s42",
+   "produces": "repro/VC-20-50_sup-noise070_s42_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s42_k2.json",
+   "id": "VC-20-50_sup-noise070_s42_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s42",
+   "produces": "repro/VC-20-50_sup-noise070_s42_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s42_k4.json",
+   "id": "VC-20-50_sup-noise070_s42_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s42",
+   "produces": "repro/VC-20-50_sup-noise070_s42_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s42_k6.json",
+   "id": "VC-20-50_sup-noise070_s42_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s42",
+   "produces": "repro/VC-20-50_sup-noise070_s42_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s4_k1.json",
+   "id": "VC-20-50_sup-noise070_s4_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s4",
+   "produces": "repro/VC-20-50_sup-noise070_s4_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s4_k2.json",
+   "id": "VC-20-50_sup-noise070_s4_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s4",
+   "produces": "repro/VC-20-50_sup-noise070_s4_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s4_k4.json",
+   "id": "VC-20-50_sup-noise070_s4_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s4",
+   "produces": "repro/VC-20-50_sup-noise070_s4_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-noise070_s4_k6.json",
+   "id": "VC-20-50_sup-noise070_s4_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-noise070_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_noise070_s4",
+   "produces": "repro/VC-20-50_sup-noise070_s4_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s1_k1.json",
+   "id": "VC-20-50_sup-permute_s1_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-permute_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s1",
+   "produces": "repro/VC-20-50_sup-permute_s1_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s1_k2.json",
+   "id": "VC-20-50_sup-permute_s1_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-permute_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s1",
+   "produces": "repro/VC-20-50_sup-permute_s1_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s1_k4.json",
+   "id": "VC-20-50_sup-permute_s1_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-permute_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s1",
+   "produces": "repro/VC-20-50_sup-permute_s1_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s1_k6.json",
+   "id": "VC-20-50_sup-permute_s1_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-permute_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s1",
+   "produces": "repro/VC-20-50_sup-permute_s1_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s2_k1.json",
+   "id": "VC-20-50_sup-permute_s2_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-permute_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s2",
+   "produces": "repro/VC-20-50_sup-permute_s2_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s2_k2.json",
+   "id": "VC-20-50_sup-permute_s2_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-permute_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s2",
+   "produces": "repro/VC-20-50_sup-permute_s2_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s2_k4.json",
+   "id": "VC-20-50_sup-permute_s2_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-permute_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s2",
+   "produces": "repro/VC-20-50_sup-permute_s2_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s2_k6.json",
+   "id": "VC-20-50_sup-permute_s2_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-permute_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s2",
+   "produces": "repro/VC-20-50_sup-permute_s2_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s3_k1.json",
+   "id": "VC-20-50_sup-permute_s3_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-permute_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s3",
+   "produces": "repro/VC-20-50_sup-permute_s3_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s3_k2.json",
+   "id": "VC-20-50_sup-permute_s3_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-permute_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s3",
+   "produces": "repro/VC-20-50_sup-permute_s3_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s3_k4.json",
+   "id": "VC-20-50_sup-permute_s3_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-permute_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s3",
+   "produces": "repro/VC-20-50_sup-permute_s3_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s3_k6.json",
+   "id": "VC-20-50_sup-permute_s3_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-permute_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s3",
+   "produces": "repro/VC-20-50_sup-permute_s3_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s42_k1.json",
+   "id": "VC-20-50_sup-permute_s42_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-permute_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s42",
+   "produces": "repro/VC-20-50_sup-permute_s42_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s42_k2.json",
+   "id": "VC-20-50_sup-permute_s42_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-permute_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s42",
+   "produces": "repro/VC-20-50_sup-permute_s42_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s42_k4.json",
+   "id": "VC-20-50_sup-permute_s42_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-permute_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s42",
+   "produces": "repro/VC-20-50_sup-permute_s42_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s42_k6.json",
+   "id": "VC-20-50_sup-permute_s42_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-permute_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s42",
+   "produces": "repro/VC-20-50_sup-permute_s42_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s4_k1.json",
+   "id": "VC-20-50_sup-permute_s4_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-permute_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s4",
+   "produces": "repro/VC-20-50_sup-permute_s4_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s4_k2.json",
+   "id": "VC-20-50_sup-permute_s4_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-permute_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s4",
+   "produces": "repro/VC-20-50_sup-permute_s4_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s4_k4.json",
+   "id": "VC-20-50_sup-permute_s4_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-permute_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s4",
+   "produces": "repro/VC-20-50_sup-permute_s4_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-permute_s4_k6.json",
+   "id": "VC-20-50_sup-permute_s4_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-permute_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_permute_s4",
+   "produces": "repro/VC-20-50_sup-permute_s4_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s1_k1.json",
+   "id": "VC-20-50_sup-remap_s1_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-remap_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s1",
+   "produces": "repro/VC-20-50_sup-remap_s1_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s1_k2.json",
+   "id": "VC-20-50_sup-remap_s1_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-remap_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s1",
+   "produces": "repro/VC-20-50_sup-remap_s1_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s1_k4.json",
+   "id": "VC-20-50_sup-remap_s1_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-remap_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s1",
+   "produces": "repro/VC-20-50_sup-remap_s1_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s1_k6.json",
+   "id": "VC-20-50_sup-remap_s1_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-remap_s1",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s1",
+   "produces": "repro/VC-20-50_sup-remap_s1_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s2_k1.json",
+   "id": "VC-20-50_sup-remap_s2_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-remap_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s2",
+   "produces": "repro/VC-20-50_sup-remap_s2_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s2_k2.json",
+   "id": "VC-20-50_sup-remap_s2_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-remap_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s2",
+   "produces": "repro/VC-20-50_sup-remap_s2_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s2_k4.json",
+   "id": "VC-20-50_sup-remap_s2_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-remap_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s2",
+   "produces": "repro/VC-20-50_sup-remap_s2_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s2_k6.json",
+   "id": "VC-20-50_sup-remap_s2_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-remap_s2",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s2",
+   "produces": "repro/VC-20-50_sup-remap_s2_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s3_k1.json",
+   "id": "VC-20-50_sup-remap_s3_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-remap_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s3",
+   "produces": "repro/VC-20-50_sup-remap_s3_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s3_k2.json",
+   "id": "VC-20-50_sup-remap_s3_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-remap_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s3",
+   "produces": "repro/VC-20-50_sup-remap_s3_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s3_k4.json",
+   "id": "VC-20-50_sup-remap_s3_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-remap_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s3",
+   "produces": "repro/VC-20-50_sup-remap_s3_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s3_k6.json",
+   "id": "VC-20-50_sup-remap_s3_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-remap_s3",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s3",
+   "produces": "repro/VC-20-50_sup-remap_s3_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s42_k1.json",
+   "id": "VC-20-50_sup-remap_s42_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-remap_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s42",
+   "produces": "repro/VC-20-50_sup-remap_s42_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s42_k2.json",
+   "id": "VC-20-50_sup-remap_s42_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-remap_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s42",
+   "produces": "repro/VC-20-50_sup-remap_s42_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s42_k4.json",
+   "id": "VC-20-50_sup-remap_s42_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-remap_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s42",
+   "produces": "repro/VC-20-50_sup-remap_s42_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s42_k6.json",
+   "id": "VC-20-50_sup-remap_s42_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-remap_s42",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s42",
+   "produces": "repro/VC-20-50_sup-remap_s42_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s4_k1.json",
+   "id": "VC-20-50_sup-remap_s4_k1",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "sup-remap_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s4",
+   "produces": "repro/VC-20-50_sup-remap_s4_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s4_k2.json",
+   "id": "VC-20-50_sup-remap_s4_k2",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "sup-remap_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s4",
+   "produces": "repro/VC-20-50_sup-remap_s4_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s4_k4.json",
+   "id": "VC-20-50_sup-remap_s4_k4",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "sup-remap_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s4",
+   "produces": "repro/VC-20-50_sup-remap_s4_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_sup-remap_s4_k6.json",
+   "id": "VC-20-50_sup-remap_s4_k6",
+   "tables": [
+    18
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "sup-remap_s4",
+   "auto": true,
+   "checkpoint": "supervision/VC-20-50_remap_s4",
+   "produces": "repro/VC-20-50_sup-remap_s4_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_t1500_k1.json",
+   "id": "VC-20-50_t1500_k1",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N1500",
+   "produces": "repro/VC-20-50_t1500_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_t1500_k2.json",
+   "id": "VC-20-50_t1500_k2",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N1500",
+   "produces": "repro/VC-20-50_t1500_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_t1500_k4.json",
+   "id": "VC-20-50_t1500_k4",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N1500",
+   "produces": "repro/VC-20-50_t1500_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_t1500_k6.json",
+   "id": "VC-20-50_t1500_k6",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N1500",
+   "produces": "repro/VC-20-50_t1500_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_t500_k1.json",
+   "id": "VC-20-50_t500_k1",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N500",
+   "produces": "repro/VC-20-50_t500_k1/eval_regret/vertex_cover/VC-20-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_t500_k2.json",
+   "id": "VC-20-50_t500_k2",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N500",
+   "produces": "repro/VC-20-50_t500_k2/eval_regret/vertex_cover/VC-20-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_t500_k4.json",
+   "id": "VC-20-50_t500_k4",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N500",
+   "produces": "repro/VC-20-50_t500_k4/eval_regret/vertex_cover/VC-20-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-20-50_t500_k6.json",
+   "id": "VC-20-50_t500_k6",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "small",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N500",
+   "produces": "repro/VC-20-50_t500_k6/eval_regret/vertex_cover/VC-20-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-100_neurprise_k1.json",
+   "id": "VC-50-100_neurprise_k1",
+   "tables": [
+    2,
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-50-100",
+   "produces": "repro/VC-50-100_neurprise_k1/eval_regret/vertex_cover/VC-50-100_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-100_neurprise_k2.json",
+   "id": "VC-50-100_neurprise_k2",
+   "tables": [
+    2,
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-50-100",
+   "produces": "repro/VC-50-100_neurprise_k2/eval_regret/vertex_cover/VC-50-100_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-100_neurprise_k4.json",
+   "id": "VC-50-100_neurprise_k4",
+   "tables": [
+    2,
+    10,
+    14
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-50-100",
+   "produces": "repro/VC-50-100_neurprise_k4/eval_regret/vertex_cover/VC-50-100_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-100_neurprise_k6.json",
+   "id": "VC-50-100_neurprise_k6",
+   "tables": [
+    2,
+    10,
+    14
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-50-100",
+   "produces": "repro/VC-50-100_neurprise_k6/eval_regret/vertex_cover/VC-50-100_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-100_train_small_k1.json",
+   "id": "VC-50-100_train_small_k1",
+   "tables": [
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-100_train_small_k1/eval_regret/vertex_cover/VC-50-100_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-100_train_small_k2.json",
+   "id": "VC-50-100_train_small_k2",
+   "tables": [
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-100_train_small_k2/eval_regret/vertex_cover/VC-50-100_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-100_train_small_k4.json",
+   "id": "VC-50-100_train_small_k4",
+   "tables": [
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-100_train_small_k4/eval_regret/vertex_cover/VC-50-100_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-100_train_small_k6.json",
+   "id": "VC-50-100_train_small_k6",
+   "tables": [
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-100_train_small_k6/eval_regret/vertex_cover/VC-50-100_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_bce_k1.json",
+   "id": "VC-50-50_bce_k1",
+   "tables": [
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/VC-50-50_bce",
+   "produces": "repro/VC-50-50_bce_k1/eval_regret/vertex_cover/VC-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_bce_k2.json",
+   "id": "VC-50-50_bce_k2",
+   "tables": [
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/VC-50-50_bce",
+   "produces": "repro/VC-50-50_bce_k2/eval_regret/vertex_cover/VC-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_bce_k4.json",
+   "id": "VC-50-50_bce_k4",
+   "tables": [
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/VC-50-50_bce",
+   "produces": "repro/VC-50-50_bce_k4/eval_regret/vertex_cover/VC-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_bce_k6.json",
+   "id": "VC-50-50_bce_k6",
+   "tables": [
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "bce",
+   "auto": true,
+   "checkpoint": "loss/VC-50-50_bce",
+   "produces": "repro/VC-50-50_bce_k6/eval_regret/vertex_cover/VC-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_neurprise_k1.json",
+   "id": "VC-50-50_neurprise_k1",
+   "tables": [
+    2,
+    10,
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-50-50",
+   "produces": "repro/VC-50-50_neurprise_k1/eval_regret/vertex_cover/VC-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_neurprise_k2.json",
+   "id": "VC-50-50_neurprise_k2",
+   "tables": [
+    2,
+    10,
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-50-50",
+   "produces": "repro/VC-50-50_neurprise_k2/eval_regret/vertex_cover/VC-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_neurprise_k4.json",
+   "id": "VC-50-50_neurprise_k4",
+   "tables": [
+    2,
+    10,
+    14,
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-50-50",
+   "produces": "repro/VC-50-50_neurprise_k4/eval_regret/vertex_cover/VC-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_neurprise_k6.json",
+   "id": "VC-50-50_neurprise_k6",
+   "tables": [
+    2,
+    10,
+    14,
+    20
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-50-50",
+   "produces": "repro/VC-50-50_neurprise_k6/eval_regret/vertex_cover/VC-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t1500_k1.json",
+   "id": "VC-50-50_t1500_k1",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N1500",
+   "produces": "repro/VC-50-50_t1500_k1/eval_regret/vertex_cover/VC-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t1500_k2.json",
+   "id": "VC-50-50_t1500_k2",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N1500",
+   "produces": "repro/VC-50-50_t1500_k2/eval_regret/vertex_cover/VC-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t1500_k4.json",
+   "id": "VC-50-50_t1500_k4",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N1500",
+   "produces": "repro/VC-50-50_t1500_k4/eval_regret/vertex_cover/VC-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t1500_k6.json",
+   "id": "VC-50-50_t1500_k6",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t1500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N1500",
+   "produces": "repro/VC-50-50_t1500_k6/eval_regret/vertex_cover/VC-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t2000_k1.json",
+   "id": "VC-50-50_t2000_k1",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t2000",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-50_t2000_k1/eval_regret/vertex_cover/VC-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t2000_k2.json",
+   "id": "VC-50-50_t2000_k2",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t2000",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-50_t2000_k2/eval_regret/vertex_cover/VC-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t2000_k4.json",
+   "id": "VC-50-50_t2000_k4",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t2000",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-50_t2000_k4/eval_regret/vertex_cover/VC-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t2000_k6.json",
+   "id": "VC-50-50_t2000_k6",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t2000",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-50_t2000_k6/eval_regret/vertex_cover/VC-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t500_k1.json",
+   "id": "VC-50-50_t500_k1",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N500",
+   "produces": "repro/VC-50-50_t500_k1/eval_regret/vertex_cover/VC-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t500_k2.json",
+   "id": "VC-50-50_t500_k2",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N500",
+   "produces": "repro/VC-50-50_t500_k2/eval_regret/vertex_cover/VC-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t500_k4.json",
+   "id": "VC-50-50_t500_k4",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N500",
+   "produces": "repro/VC-50-50_t500_k4/eval_regret/vertex_cover/VC-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_t500_k6.json",
+   "id": "VC-50-50_t500_k6",
+   "tables": [
+    11
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "t500",
+   "auto": true,
+   "checkpoint": "train_size/VC-20-50_N500",
+   "produces": "repro/VC-50-50_t500_k6/eval_regret/vertex_cover/VC-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_train_small_k1.json",
+   "id": "VC-50-50_train_small_k1",
+   "tables": [
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-50_train_small_k1/eval_regret/vertex_cover/VC-50-50_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_train_small_k2.json",
+   "id": "VC-50-50_train_small_k2",
+   "tables": [
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-50_train_small_k2/eval_regret/vertex_cover/VC-50-50_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_train_small_k4.json",
+   "id": "VC-50-50_train_small_k4",
+   "tables": [
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-50_train_small_k4/eval_regret/vertex_cover/VC-50-50_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-50-50_train_small_k6.json",
+   "id": "VC-50-50_train_small_k6",
+   "tables": [
+    10
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "train_small",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-50-50_train_small_k6/eval_regret/vertex_cover/VC-50-50_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-mm-id_neurprise_k1.json",
+   "id": "VC-mm-id_neurprise_k1",
+   "tables": [
+    6
+   ],
+   "problem": "vertex_cover",
+   "scale": "mm_id",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/VC-20-50_mm",
+   "produces": "repro/VC-mm-id_neurprise_k1/eval_regret/vertex_cover/VC-mm-id_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-mm-id_neurprise_k2.json",
+   "id": "VC-mm-id_neurprise_k2",
+   "tables": [
+    6
+   ],
+   "problem": "vertex_cover",
+   "scale": "mm_id",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/VC-20-50_mm",
+   "produces": "repro/VC-mm-id_neurprise_k2/eval_regret/vertex_cover/VC-mm-id_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-mm-id_neurprise_k4.json",
+   "id": "VC-mm-id_neurprise_k4",
+   "tables": [
+    6
+   ],
+   "problem": "vertex_cover",
+   "scale": "mm_id",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/VC-20-50_mm",
+   "produces": "repro/VC-mm-id_neurprise_k4/eval_regret/vertex_cover/VC-mm-id_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-mm-id_neurprise_k6.json",
+   "id": "VC-mm-id_neurprise_k6",
+   "tables": [
+    6
+   ],
+   "problem": "vertex_cover",
+   "scale": "mm_id",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/VC-20-50_mm",
+   "produces": "repro/VC-mm-id_neurprise_k6/eval_regret/vertex_cover/VC-mm-id_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-mm-x_neurprise_k1.json",
+   "id": "VC-mm-x_neurprise_k1",
+   "tables": [
+    6
+   ],
+   "problem": "vertex_cover",
+   "scale": "mm_x",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-mm-x_neurprise_k1/eval_regret/vertex_cover/VC-mm-x_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-mm-x_neurprise_k2.json",
+   "id": "VC-mm-x_neurprise_k2",
+   "tables": [
+    6
+   ],
+   "problem": "vertex_cover",
+   "scale": "mm_x",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-mm-x_neurprise_k2/eval_regret/vertex_cover/VC-mm-x_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-mm-x_neurprise_k4.json",
+   "id": "VC-mm-x_neurprise_k4",
+   "tables": [
+    6
+   ],
+   "problem": "vertex_cover",
+   "scale": "mm_x",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-mm-x_neurprise_k4/eval_regret/vertex_cover/VC-mm-x_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-mm-x_neurprise_k6.json",
+   "id": "VC-mm-x_neurprise_k6",
+   "tables": [
+    6
+   ],
+   "problem": "vertex_cover",
+   "scale": "mm_x",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-mm-x_neurprise_k6/eval_regret/vertex_cover/VC-mm-x_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-normal-id_neurprise_k1.json",
+   "id": "VC-normal-id_neurprise_k1",
+   "tables": [
+    5
+   ],
+   "problem": "vertex_cover",
+   "scale": "normal_id",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/VC-20-50_normal",
+   "produces": "repro/VC-normal-id_neurprise_k1/eval_regret/vertex_cover/VC-normal-id_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-normal-id_neurprise_k2.json",
+   "id": "VC-normal-id_neurprise_k2",
+   "tables": [
+    5
+   ],
+   "problem": "vertex_cover",
+   "scale": "normal_id",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/VC-20-50_normal",
+   "produces": "repro/VC-normal-id_neurprise_k2/eval_regret/vertex_cover/VC-normal-id_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-normal-id_neurprise_k4.json",
+   "id": "VC-normal-id_neurprise_k4",
+   "tables": [
+    5
+   ],
+   "problem": "vertex_cover",
+   "scale": "normal_id",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/VC-20-50_normal",
+   "produces": "repro/VC-normal-id_neurprise_k4/eval_regret/vertex_cover/VC-normal-id_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-normal-id_neurprise_k6.json",
+   "id": "VC-normal-id_neurprise_k6",
+   "tables": [
+    5
+   ],
+   "problem": "vertex_cover",
+   "scale": "normal_id",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "distribution/VC-20-50_normal",
+   "produces": "repro/VC-normal-id_neurprise_k6/eval_regret/vertex_cover/VC-normal-id_neurprise_k6.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-normal-x_neurprise_k1.json",
+   "id": "VC-normal-x_neurprise_k1",
+   "tables": [
+    5
+   ],
+   "problem": "vertex_cover",
+   "scale": "normal_x",
+   "k": 1,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-normal-x_neurprise_k1/eval_regret/vertex_cover/VC-normal-x_neurprise_k1.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-normal-x_neurprise_k2.json",
+   "id": "VC-normal-x_neurprise_k2",
+   "tables": [
+    5
+   ],
+   "problem": "vertex_cover",
+   "scale": "normal_x",
+   "k": 2,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-normal-x_neurprise_k2/eval_regret/vertex_cover/VC-normal-x_neurprise_k2.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-normal-x_neurprise_k4.json",
+   "id": "VC-normal-x_neurprise_k4",
+   "tables": [
+    5
+   ],
+   "problem": "vertex_cover",
+   "scale": "normal_x",
+   "k": 4,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-normal-x_neurprise_k4/eval_regret/vertex_cover/VC-normal-x_neurprise_k4.json"
+  },
+  {
+   "output": "eval_regret/vertex_cover/VC-normal-x_neurprise_k6.json",
+   "id": "VC-normal-x_neurprise_k6",
+   "tables": [
+    5
+   ],
+   "problem": "vertex_cover",
+   "scale": "normal_x",
+   "k": 6,
+   "kind": "neurprise",
+   "variant": "neurprise",
+   "auto": true,
+   "checkpoint": "main/VC-20-50",
+   "produces": "repro/VC-normal-x_neurprise_k6/eval_regret/vertex_cover/VC-normal-x_neurprise_k6.json"
+  },
+  {
+   "output": "compression_budget.json",
+   "id": "compression_budget",
+   "tables": [
+    7
+   ],
+   "kind": "compression",
+   "auto": true,
+   "produces": "repro/compression_budget/compression_budget.json"
+  },
+  {
+   "output": "VC-50-50_truncated_k6.json",
+   "id": "scenario_runtime_med",
+   "tables": [
+    15
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "kind": "runtime",
+   "auto": true,
+   "produces": "repro/scenario_runtime_med/VC-50-50_truncated_k6.json"
+  },
+  {
+   "output": "VC-50-100_truncated_k6.json",
+   "id": "scenario_runtime_lrg",
+   "tables": [
+    16
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "kind": "runtime",
+   "auto": true,
+   "produces": "repro/scenario_runtime_lrg/VC-50-100_truncated_k6.json"
+  },
+  {
+   "output": "VC-50-50_fullmilp_k4_budget1s.json",
+   "id": "VC-50-50_fullmilp_k4_budget1s",
+   "tables": [
+    14
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 4,
+   "kind": "time_budget",
+   "auto": true,
+   "produces": "repro/VC-50-50_fullmilp_k4_budget1s/VC-50-50_fullmilp_k4_budget1s.json"
+  },
+  {
+   "output": "VC-50-50_fullmilp_k6_budget2s.json",
+   "id": "VC-50-50_fullmilp_k6_budget2s",
+   "tables": [
+    14
+   ],
+   "problem": "vertex_cover",
+   "scale": "medium",
+   "k": 6,
+   "kind": "time_budget",
+   "auto": true,
+   "produces": "repro/VC-50-50_fullmilp_k6_budget2s/VC-50-50_fullmilp_k6_budget2s.json"
+  },
+  {
+   "output": "VC-50-100_fullmilp_k4_budget1s.json",
+   "id": "VC-50-100_fullmilp_k4_budget1s",
+   "tables": [
+    14
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 4,
+   "kind": "time_budget",
+   "auto": true,
+   "produces": "repro/VC-50-100_fullmilp_k4_budget1s/VC-50-100_fullmilp_k4_budget1s.json"
+  },
+  {
+   "output": "VC-50-100_fullmilp_k6_budget2s.json",
+   "id": "VC-50-100_fullmilp_k6_budget2s",
+   "tables": [
+    14
+   ],
+   "problem": "vertex_cover",
+   "scale": "large",
+   "k": 6,
+   "kind": "time_budget",
+   "auto": true,
+   "produces": "repro/VC-50-100_fullmilp_k6_budget2s/VC-50-100_fullmilp_k6_budget2s.json"
+  }
+ ]
+}

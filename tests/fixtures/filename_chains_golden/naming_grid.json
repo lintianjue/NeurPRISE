@@ -1,0 +1,116 @@
+[
+  {
+    "ckpt_name": "s42_i100_n8_s10__c-train_scale_norm_m-det_source_sce_mean_l-multilabel_bce_loss_best.pt",
+    "config_name": "train_scale_norm",
+    "out_tag": null,
+    "overrides": [
+      "problem=vertex_cover"
+    ],
+    "problem": "vertex_cover"
+  },
+  {
+    "ckpt_name": "s42_i100_n8_s10__c-train_scale_norm_m-det_source_sce_mean_l-multilabel_bce_loss_tagX_best.pt",
+    "config_name": "train_scale_norm",
+    "out_tag": "tagX",
+    "overrides": [
+      "problem=vertex_cover",
+      "+train.output_tag=tagX"
+    ],
+    "problem": "vertex_cover"
+  },
+  {
+    "ckpt_name": "s42_i100_n50_s10__c-train_scale_norm_m-det_source_sce_mean_l-multilabel_bce_loss_best.pt",
+    "config_name": "train_scale_norm",
+    "out_tag": null,
+    "overrides": [
+      "problem=selection"
+    ],
+    "problem": "selection"
+  },
+  {
+    "ckpt_name": "s42_i100_n50_s10__c-train_scale_norm_m-det_source_sce_mean_l-multilabel_bce_loss_tagX_best.pt",
+    "config_name": "train_scale_norm",
+    "out_tag": "tagX",
+    "overrides": [
+      "problem=selection",
+      "+train.output_tag=tagX"
+    ],
+    "problem": "selection"
+  },
+  {
+    "ckpt_name": "s42_i100_m30_n30_s10__c-train_scale_norm_m-det_source_sce_mean_l-multilabel_bce_loss_best.pt",
+    "config_name": "train_scale_norm",
+    "out_tag": null,
+    "overrides": [
+      "problem=cflp_ebp"
+    ],
+    "problem": "cflp_ebp"
+  },
+  {
+    "ckpt_name": "s42_i100_m30_n30_s10__c-train_scale_norm_m-det_source_sce_mean_l-multilabel_bce_loss_tagX_best.pt",
+    "config_name": "train_scale_norm",
+    "out_tag": "tagX",
+    "overrides": [
+      "problem=cflp_ebp",
+      "+train.output_tag=tagX"
+    ],
+    "problem": "cflp_ebp"
+  },
+  {
+    "ckpt_name": "s42_i100_n8_s10__c-train_normalize_m-det_source_sce_mean_l-multilabel_bce_loss_best.pt",
+    "config_name": "train_normalize",
+    "out_tag": null,
+    "overrides": [
+      "problem=vertex_cover"
+    ],
+    "problem": "vertex_cover"
+  },
+  {
+    "ckpt_name": "s42_i100_n8_s10__c-train_normalize_m-det_source_sce_mean_l-multilabel_bce_loss_tagX_best.pt",
+    "config_name": "train_normalize",
+    "out_tag": "tagX",
+    "overrides": [
+      "problem=vertex_cover",
+      "+train.output_tag=tagX"
+    ],
+    "problem": "vertex_cover"
+  },
+  {
+    "ckpt_name": "s42_i100_n50_s10__c-train_normalize_m-det_source_sce_mean_l-multilabel_bce_loss_best.pt",
+    "config_name": "train_normalize",
+    "out_tag": null,
+    "overrides": [
+      "problem=selection"
+    ],
+    "problem": "selection"
+  },
+  {
+    "ckpt_name": "s42_i100_n50_s10__c-train_normalize_m-det_source_sce_mean_l-multilabel_bce_loss_tagX_best.pt",
+    "config_name": "train_normalize",
+    "out_tag": "tagX",
+    "overrides": [
+      "problem=selection",
+      "+train.output_tag=tagX"
+    ],
+    "problem": "selection"
+  },
+  {
+    "ckpt_name": "s42_i100_m30_n30_s10__c-train_normalize_m-det_source_sce_mean_l-multilabel_bce_loss_best.pt",
+    "config_name": "train_normalize",
+    "out_tag": null,
+    "overrides": [
+      "problem=cflp_ebp"
+    ],
+    "problem": "cflp_ebp"
+  },
+  {
+    "ckpt_name": "s42_i100_m30_n30_s10__c-train_normalize_m-det_source_sce_mean_l-multilabel_bce_loss_tagX_best.pt",
+    "config_name": "train_normalize",
+    "out_tag": "tagX",
+    "overrides": [
+      "problem=cflp_ebp",
+      "+train.output_tag=tagX"
+    ],
+    "problem": "cflp_ebp"
+  }
+]

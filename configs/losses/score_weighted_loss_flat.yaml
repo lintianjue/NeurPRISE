@@ -1,0 +1,14 @@
+_target_: src.training.score_weighted_loss.score_weighted_kl_loss
+name: score_weighted_loss_flat
+
+# Use marginal gains to preserve the "Set Property" (penalize redundancy)
+gains_attr: gains
+
+# Log compresses the magnitude (500 -> 6.2)
+target_transform: log
+
+# T=5.0 prevents Softmax from re-expanding the log values back to linear.
+# This keeps the distribution flat so the model learns the late-step scenarios.
+temperature: 5.0
+
+reduction: batchmean

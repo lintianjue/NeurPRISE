@@ -1,0 +1,77 @@
+[
+  {
+    "a": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform.pkl",
+    "b": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform.pkl",
+    "c": "label_prise_seed42_cnt500_n50_s100_pNone_scen_uniform.pkl",
+    "overrides": [],
+    "problem": "vertex_cover"
+  },
+  {
+    "a": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform_bigmilp.pkl",
+    "b": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform_bigmilp.pkl",
+    "c": "label_prise_seed42_cnt500_n50_s100_pNone_scen_uniform_bigmilp.pkl",
+    "overrides": [
+      "label.prise.output=bigmilp"
+    ],
+    "problem": "vertex_cover"
+  },
+  {
+    "a": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform_merged500.pkl",
+    "b": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform_merged500.pkl",
+    "c": "label_prise_seed42_cnt500_n50_s100_pNone_scen_uniform_merged500.pkl",
+    "overrides": [
+      "problem.data.label_variant=merged500"
+    ],
+    "problem": "vertex_cover"
+  },
+  {
+    "a": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform.pkl",
+    "b": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform.pkl",
+    "c": "label_prise_seed42_cnt500_n50_s100_p25_scen_uniform.pkl",
+    "overrides": [],
+    "problem": "selection"
+  },
+  {
+    "a": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform_bigmilp.pkl",
+    "b": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform_bigmilp.pkl",
+    "c": "label_prise_seed42_cnt500_n50_s100_p25_scen_uniform_bigmilp.pkl",
+    "overrides": [
+      "label.prise.output=bigmilp"
+    ],
+    "problem": "selection"
+  },
+  {
+    "a": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform_merged500.pkl",
+    "b": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform_merged500.pkl",
+    "c": "label_prise_seed42_cnt500_n50_s100_p25_scen_uniform_merged500.pkl",
+    "overrides": [
+      "problem.data.label_variant=merged500"
+    ],
+    "problem": "selection"
+  },
+  {
+    "a": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform.pkl",
+    "b": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform.pkl",
+    "c": "label_prise_seed42_cnt500_m70_n70_s100_scen_uniform.pkl",
+    "overrides": [],
+    "problem": "cflp_ebp"
+  },
+  {
+    "a": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform_bigmilp.pkl",
+    "b": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform_bigmilp.pkl",
+    "c": "label_prise_seed42_cnt500_m70_n70_s100_scen_uniform_bigmilp.pkl",
+    "overrides": [
+      "label.prise.output=bigmilp"
+    ],
+    "problem": "cflp_ebp"
+  },
+  {
+    "a": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform_merged500.pkl",
+    "b": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform_merged500.pkl",
+    "c": "label_prise_seed42_cnt500_m70_n70_s100_scen_uniform_merged500.pkl",
+    "overrides": [
+      "problem.data.label_variant=merged500"
+    ],
+    "problem": "cflp_ebp"
+  }
+]

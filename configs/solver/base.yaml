@@ -1,0 +1,12 @@
+# configs/solver/base.yaml
+time_limit: 3600
+mip_gap: 1e-4
+threads: 40
+verbose: false
+prise_time_limit: 60
+prise_verbose: false
+ccg:
+  master:
+    verbose: true
+  adv:
+    verbose: false

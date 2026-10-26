@@ -1,0 +1,8 @@
+# configs/exp/train_normalize.yaml
+
+defaults:
+  - train
+  - _self_
+
+data:
+  normalize: true

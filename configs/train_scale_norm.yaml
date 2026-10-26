@@ -1,0 +1,9 @@
+# configs/exp/train_scale_norm.yaml
+
+defaults:
+  - train
+  - _self_
+
+data:
+  normalize: true
+  normalize_mode: scale

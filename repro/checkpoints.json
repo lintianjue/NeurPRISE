@@ -1,0 +1,1873 @@
+{
+ "schema": "neurprise-checkpoints/2",
+ "checkpoints": [
+  {
+   "key": "main/SEL-20-50",
+   "path": "checkpoints/main/SEL-20-50.pt",
+   "sha256_16": "90b5ef91294c615d",
+   "size_bytes": 1706865,
+   "description": "seed42, n_train=2500 (i2500), n=20, S=50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "main/VC-20-50",
+   "path": "checkpoints/main/VC-20-50.pt",
+   "sha256_16": "82d76ba7dc1f3d5c",
+   "size_bytes": 1708913,
+   "description": "seed42, i2500, n=20, S=50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "main/SEL-50-50",
+   "path": "checkpoints/main/SEL-50-50.pt",
+   "sha256_16": "6628cb9b90996c15",
+   "size_bytes": 1706646,
+   "description": "seed42, i500, n=50, S=50 (target/medium-trained), det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "main/SEL-50-100",
+   "path": "checkpoints/main/SEL-50-100.pt",
+   "sha256_16": "1e83634a21492da0",
+   "size_bytes": 1712976,
+   "description": "seed42, i500, n=50, S=100 (target/large-trained, retrained, merged500 labels), det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s100__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_s42_best.pt"
+  },
+  {
+   "key": "main/VC-50-50",
+   "path": "checkpoints/main/VC-50-50.pt",
+   "sha256_16": "78e5ca5945ea445d",
+   "size_bytes": 1717059,
+   "description": "train_seed42, i500, n=50, S=50, cheap-label arm 'exact' (reference), det_source_sce_mean, score_weighted_loss_flat, scale norm, lr 6e-4, label merged500",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_exact_trseed42_r2_best.pt"
+  },
+  {
+   "key": "main/VC-50-100",
+   "path": "checkpoints/main/VC-50-100.pt",
+   "sha256_16": "170467ab9553ea91",
+   "size_bytes": 1715024,
+   "description": "seed42, i500, n=50, S=100 (retrained), det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s100__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_s42_best.pt"
+  },
+  {
+   "key": "distribution/SEL-20-50_normal",
+   "path": "checkpoints/distribution/SEL-20-50_normal.pt",
+   "sha256_16": "50c7ad7575ce07d2",
+   "size_bytes": 1710129,
+   "description": "seed42, i2500, n=20, S=50, trained on NORMAL scenarios, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "distribution/VC-20-50_normal",
+   "path": "checkpoints/distribution/VC-20-50_normal.pt",
+   "sha256_16": "c16038e1cbffc927",
+   "size_bytes": 1712177,
+   "description": "seed42, i2500, n=20, S=50, trained on NORMAL scenarios, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "distribution/SEL-20-50_mm",
+   "path": "checkpoints/distribution/SEL-20-50_mm.pt",
+   "sha256_16": "91e4a9d265c95b6d",
+   "size_bytes": 1710129,
+   "description": "seed42, i2500, n=20, S=50, trained on MULTIMODAL scenarios, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "distribution/VC-20-50_mm",
+   "path": "checkpoints/distribution/VC-20-50_mm.pt",
+   "sha256_16": "11c1f2488de21d20",
+   "size_bytes": 1712177,
+   "description": "seed42, i2500, n=20, S=50, trained on MULTIMODAL scenarios, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "train_size/SEL-20-50_N500",
+   "path": "checkpoints/train_size/SEL-20-50_N500.pt",
+   "sha256_16": "d60e2acc990b4fb8",
+   "size_bytes": 1710129,
+   "description": "seed42, training-size ablation N=500 (ckpt name keeps i2500 pool tag), n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "train_size/SEL-20-50_N1500",
+   "path": "checkpoints/train_size/SEL-20-50_N1500.pt",
+   "sha256_16": "31ae0b5cc8903ad4",
+   "size_bytes": 1710129,
+   "description": "seed42, training-size ablation N=1500 (ckpt name keeps i2500 pool tag), n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "train_size/VC-20-50_N500",
+   "path": "checkpoints/train_size/VC-20-50_N500.pt",
+   "sha256_16": "d53b186f166d99bd",
+   "size_bytes": 1712177,
+   "description": "seed42, training-size ablation N=500 (ckpt name keeps i2500 pool tag), n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "train_size/VC-20-50_N1500",
+   "path": "checkpoints/train_size/VC-20-50_N1500.pt",
+   "sha256_16": "852e87cc95390da9",
+   "size_bytes": 1712177,
+   "description": "seed42, training-size ablation N=1500 (ckpt name keeps i2500 pool tag), n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "seeds/SEL-20-50_s1",
+   "path": "checkpoints/seeds/SEL-20-50_s1.pt",
+   "sha256_16": "21c56650cf54cf56",
+   "size_bytes": 1709910,
+   "description": "train seed 1, i2500, n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "seeds/SEL-20-50_s2",
+   "path": "checkpoints/seeds/SEL-20-50_s2.pt",
+   "sha256_16": "d4030692c11c4469",
+   "size_bytes": 1709910,
+   "description": "train seed 2, i2500, n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "seeds/SEL-20-50_s3",
+   "path": "checkpoints/seeds/SEL-20-50_s3.pt",
+   "sha256_16": "eeb8c17c08022334",
+   "size_bytes": 1709910,
+   "description": "train seed 3, i2500, n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s3_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "seeds/SEL-20-50_s4",
+   "path": "checkpoints/seeds/SEL-20-50_s4.pt",
+   "sha256_16": "223835a1f87181f8",
+   "size_bytes": 1709910,
+   "description": "train seed 4, i2500, n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s4_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "seeds/VC-20-50_s1",
+   "path": "checkpoints/seeds/VC-20-50_s1.pt",
+   "sha256_16": "54f30f85c5d96609",
+   "size_bytes": 1711958,
+   "description": "train seed 1, i2500, n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "seeds/VC-20-50_s2",
+   "path": "checkpoints/seeds/VC-20-50_s2.pt",
+   "sha256_16": "c1d2a8549e17c57a",
+   "size_bytes": 1711958,
+   "description": "train seed 2, i2500, n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "seeds/VC-20-50_s3",
+   "path": "checkpoints/seeds/VC-20-50_s3.pt",
+   "sha256_16": "c7c539a84a509e7b",
+   "size_bytes": 1711958,
+   "description": "train seed 3, i2500, n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s3_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "seeds/VC-20-50_s4",
+   "path": "checkpoints/seeds/VC-20-50_s4.pt",
+   "sha256_16": "519ca9e90261eee2",
+   "size_bytes": 1711958,
+   "description": "train seed 4, i2500, n20, S50, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s4_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_LF_s42",
+   "path": "checkpoints/architecture/SEL-20-50_LF_s42.pt",
+   "sha256_16": "ab027855d470b124",
+   "size_bytes": 2283579,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_LF_s1",
+   "path": "checkpoints/architecture/SEL-20-50_LF_s1.pt",
+   "sha256_16": "91177dafa015e51e",
+   "size_bytes": 2287627,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_LF_s2",
+   "path": "checkpoints/architecture/SEL-20-50_LF_s2.pt",
+   "sha256_16": "c33730132a071dd0",
+   "size_bytes": 2287627,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_LF_s3",
+   "path": "checkpoints/architecture/SEL-20-50_LF_s3.pt",
+   "sha256_16": "e18c090d4a67b6d0",
+   "size_bytes": 2287627,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s3_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_LF_s4",
+   "path": "checkpoints/architecture/SEL-20-50_LF_s4.pt",
+   "sha256_16": "a8a9f7985a3430d3",
+   "size_bytes": 2287627,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s4_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_EF_s42",
+   "path": "checkpoints/architecture/SEL-20-50_EF_s42.pt",
+   "sha256_16": "81aa438018099d70",
+   "size_bytes": 2282091,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_EF_s1",
+   "path": "checkpoints/architecture/SEL-20-50_EF_s1.pt",
+   "sha256_16": "77f566376722dc73",
+   "size_bytes": 2286139,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_EF_s2",
+   "path": "checkpoints/architecture/SEL-20-50_EF_s2.pt",
+   "sha256_16": "9b46dc42ad6eec8d",
+   "size_bytes": 2286139,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_EF_s3",
+   "path": "checkpoints/architecture/SEL-20-50_EF_s3.pt",
+   "sha256_16": "a2eb6281e83c46d7",
+   "size_bytes": 2286139,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s3_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/SEL-20-50_EF_s4",
+   "path": "checkpoints/architecture/SEL-20-50_EF_s4.pt",
+   "sha256_16": "c78564f38e9ce61e",
+   "size_bytes": 2286139,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s4_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_LF_s42",
+   "path": "checkpoints/architecture/VC-20-50_LF_s42.pt",
+   "sha256_16": "d9f379afc7f0db8b",
+   "size_bytes": 2291003,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_LF_s1",
+   "path": "checkpoints/architecture/VC-20-50_LF_s1.pt",
+   "sha256_16": "697a73a1454b1fcf",
+   "size_bytes": 2290699,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_LF_s2",
+   "path": "checkpoints/architecture/VC-20-50_LF_s2.pt",
+   "sha256_16": "b1875e9950968983",
+   "size_bytes": 2290699,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_LF_s3",
+   "path": "checkpoints/architecture/VC-20-50_LF_s3.pt",
+   "sha256_16": "dac2070f43ed46cf",
+   "size_bytes": 2290699,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s3_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_LF_s4",
+   "path": "checkpoints/architecture/VC-20-50_LF_s4.pt",
+   "sha256_16": "3fad5ea52af712a0",
+   "size_bytes": 2290699,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model one_shot_crossattn_edge_dim1_small, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "one_shot_crossattn_edge_dim1_small",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s4_i2500_n20_s50__c-train_scale_norm_m-one_shot_crossattn_edge_dim1_small_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_EF_s42",
+   "path": "checkpoints/architecture/VC-20-50_EF_s42.pt",
+   "sha256_16": "81c745160c26da34",
+   "size_bytes": 2289515,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_EF_s1",
+   "path": "checkpoints/architecture/VC-20-50_EF_s1.pt",
+   "sha256_16": "c642ea8c18f8b44a",
+   "size_bytes": 2289211,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_EF_s2",
+   "path": "checkpoints/architecture/VC-20-50_EF_s2.pt",
+   "sha256_16": "b16626a4609de513",
+   "size_bytes": 2289211,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_EF_s3",
+   "path": "checkpoints/architecture/VC-20-50_EF_s3.pt",
+   "sha256_16": "9f823ddcbf3f4db1",
+   "size_bytes": 2289211,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s3_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "architecture/VC-20-50_EF_s4",
+   "path": "checkpoints/architecture/VC-20-50_EF_s4.pt",
+   "sha256_16": "1eeb0e90858dab5e",
+   "size_bytes": 2289211,
+   "description": "5 training seeds {42,1,2,3,4}, i2500, n20, S50, model config_early_fusion_mlp, score_weighted_loss_flat, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "config_early_fusion_mlp",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s4_i2500_n20_s50__c-train_scale_norm_m-config_early_fusion_mlp_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "loss/SEL-20-50_bce",
+   "path": "checkpoints/loss/SEL-20-50_bce.pt",
+   "sha256_16": "3d936ef94b9f4656",
+   "size_bytes": 1707373,
+   "description": "seed42, i2500, n20, S50, det_source_sce_mean, log_bce_loss, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "log_bce_loss"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-log_bce_loss_best.pt"
+  },
+  {
+   "key": "loss/VC-20-50_bce",
+   "path": "checkpoints/loss/VC-20-50_bce.pt",
+   "sha256_16": "686a143066ed0dd7",
+   "size_bytes": 1709421,
+   "description": "seed42, i2500, n20, S50, det_source_sce_mean, log_bce_loss, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "log_bce_loss"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-log_bce_loss_best.pt"
+  },
+  {
+   "key": "loss/SEL-50-50_bce",
+   "path": "checkpoints/loss/SEL-50-50_bce.pt",
+   "sha256_16": "a12c69a6936ad147",
+   "size_bytes": 1707154,
+   "description": "seed42, i500, n50, S50, det_source_sce_mean, log_bce_loss, train_scale_norm (medium in-dist)",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "log_bce_loss"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-log_bce_loss_best.pt"
+  },
+  {
+   "key": "loss/VC-50-50_bce",
+   "path": "checkpoints/loss/VC-50-50_bce.pt",
+   "sha256_16": "de47e7e898c7824e",
+   "size_bytes": 1715088,
+   "description": "D-51 retrain: seed42, i500 (role-merged 400/50/50 split fix), n50, S50, det_source_sce_mean, log_bce_loss, train_scale_norm",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "log_bce_loss"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-log_bce_loss_trseed42_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_exact_s1",
+   "path": "checkpoints/cheap_labels/VC-50-50_exact_s1.pt",
+   "sha256_16": "4b6f99ff1e78493a",
+   "size_bytes": 1716840,
+   "description": "cheap-label arm 'exact': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=exact",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_exact_trseed1_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_exact_s2",
+   "path": "checkpoints/cheap_labels/VC-50-50_exact_s2.pt",
+   "sha256_16": "1ef9a868209cae53",
+   "size_bytes": 1716840,
+   "description": "cheap-label arm 'exact': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=exact",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_exact_trseed2_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_gap002_s42",
+   "path": "checkpoints/cheap_labels/VC-50-50_gap002_s42.pt",
+   "sha256_16": "770309888f983e91",
+   "size_bytes": 1717278,
+   "description": "cheap-label arm 'gap002': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=gap002",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_gap002_trseed42_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_gap002_s1",
+   "path": "checkpoints/cheap_labels/VC-50-50_gap002_s1.pt",
+   "sha256_16": "01cf52cd243227bc",
+   "size_bytes": 1717059,
+   "description": "cheap-label arm 'gap002': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=gap002",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_gap002_trseed1_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_gap002_s2",
+   "path": "checkpoints/cheap_labels/VC-50-50_gap002_s2.pt",
+   "sha256_16": "454f7f1b3214eece",
+   "size_bytes": 1717059,
+   "description": "cheap-label arm 'gap002': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=gap002",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_gap002_trseed2_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_gap005_s42",
+   "path": "checkpoints/cheap_labels/VC-50-50_gap005_s42.pt",
+   "sha256_16": "4010a1065bb38fe6",
+   "size_bytes": 1717278,
+   "description": "cheap-label arm 'gap005': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=gap005",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_gap005_trseed42_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_gap005_s1",
+   "path": "checkpoints/cheap_labels/VC-50-50_gap005_s1.pt",
+   "sha256_16": "6cb5fe1dc6cc2ebd",
+   "size_bytes": 1717059,
+   "description": "cheap-label arm 'gap005': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=gap005",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_gap005_trseed1_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_gap005_s2",
+   "path": "checkpoints/cheap_labels/VC-50-50_gap005_s2.pt",
+   "sha256_16": "101c9dfbe6a58d71",
+   "size_bytes": 1717059,
+   "description": "cheap-label arm 'gap005': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=gap005",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_gap005_trseed2_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_tl2s_s42",
+   "path": "checkpoints/cheap_labels/VC-50-50_tl2s_s42.pt",
+   "sha256_16": "c6d3b2cec2a8f045",
+   "size_bytes": 1716840,
+   "description": "cheap-label arm 'tl2s': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=tl2s",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_tl2s_trseed42_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_tl2s_s1",
+   "path": "checkpoints/cheap_labels/VC-50-50_tl2s_s1.pt",
+   "sha256_16": "9f695865457ed5eb",
+   "size_bytes": 1716621,
+   "description": "cheap-label arm 'tl2s': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=tl2s",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_tl2s_trseed1_r2_best.pt"
+  },
+  {
+   "key": "cheap_labels/VC-50-50_tl2s_s2",
+   "path": "checkpoints/cheap_labels/VC-50-50_tl2s_s2.pt",
+   "sha256_16": "e1d1744734128107",
+   "size_bytes": 1716621,
+   "description": "cheap-label arm 'tl2s': 3 train seeds {42,1,2}, i500 (400/50/50), n50, S50, det_source_sce_mean, score_weighted_loss_flat, labels=tl2s",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i500_n50_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_tl2s_trseed2_r2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b1_s1",
+   "path": "checkpoints/transfer/SEL2VC_ft_b1_s1.pt",
+   "sha256_16": "28be95cabeff6994",
+   "size_bytes": 1714148,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b1_seed1_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b1_s2",
+   "path": "checkpoints/transfer/SEL2VC_ft_b1_s2.pt",
+   "sha256_16": "2aa2c2bc1bfa8bf3",
+   "size_bytes": 1714148,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b1_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b1_s42",
+   "path": "checkpoints/transfer/SEL2VC_ft_b1_s42.pt",
+   "sha256_16": "570a56d18de0257c",
+   "size_bytes": 1714586,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b1_seed42_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b1_s1",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b1_s1.pt",
+   "sha256_16": "db1bade87c800d3a",
+   "size_bytes": 1715243,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b1_seed1_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b1_s2",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b1_s2.pt",
+   "sha256_16": "fef4f479abc07726",
+   "size_bytes": 1715243,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b1_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b1_s42",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b1_s42.pt",
+   "sha256_16": "cce5784152002eb5",
+   "size_bytes": 1715681,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b1_seed42_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b2p5_s1",
+   "path": "checkpoints/transfer/SEL2VC_ft_b2p5_s1.pt",
+   "sha256_16": "e7bb2b6aae2e026f",
+   "size_bytes": 1714586,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b2p5_seed1_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b2p5_s2",
+   "path": "checkpoints/transfer/SEL2VC_ft_b2p5_s2.pt",
+   "sha256_16": "b76ac3e7541443fa",
+   "size_bytes": 1714586,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b2p5_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b2p5_s42",
+   "path": "checkpoints/transfer/SEL2VC_ft_b2p5_s42.pt",
+   "sha256_16": "a387f193727a469e",
+   "size_bytes": 1715024,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b2p5_seed42_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b2p5_s1",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b2p5_s1.pt",
+   "sha256_16": "0037f02b14c35cd5",
+   "size_bytes": 1715681,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b2p5_seed1_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b2p5_s2",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b2p5_s2.pt",
+   "sha256_16": "375aafb45d297fa9",
+   "size_bytes": 1715681,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b2p5_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b2p5_s42",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b2p5_s42.pt",
+   "sha256_16": "efdbab8059facd23",
+   "size_bytes": 1716119,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b2p5_seed42_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b5_s1",
+   "path": "checkpoints/transfer/SEL2VC_ft_b5_s1.pt",
+   "sha256_16": "dd619c89d9eb0fcf",
+   "size_bytes": 1714148,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b5_seed1_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b5_s2",
+   "path": "checkpoints/transfer/SEL2VC_ft_b5_s2.pt",
+   "sha256_16": "3e5a24aeef53fcfa",
+   "size_bytes": 1714148,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b5_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b5_s42",
+   "path": "checkpoints/transfer/SEL2VC_ft_b5_s42.pt",
+   "sha256_16": "0443707cd5c2ed4f",
+   "size_bytes": 1714586,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft_b5_seed42_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b5_s1",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b5_s1.pt",
+   "sha256_16": "df2eb202af86f379",
+   "size_bytes": 1715243,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s1_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b5_seed1_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b5_s2",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b5_s2.pt",
+   "sha256_16": "f5688592a36bad75",
+   "size_bytes": 1715243,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b5_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b5_s42",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b5_s42.pt",
+   "sha256_16": "85772811bca64d10",
+   "size_bytes": 1715681,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch_b5_seed42_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b10_s1",
+   "path": "checkpoints/transfer/SEL2VC_ft_b10_s1.pt",
+   "sha256_16": "9ba1c9712800e422",
+   "size_bytes": 1669316,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b10_s2",
+   "path": "checkpoints/transfer/SEL2VC_ft_b10_s2.pt",
+   "sha256_16": "631eb1c6a440b01d",
+   "size_bytes": 1714148,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft010_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b10_s42",
+   "path": "checkpoints/transfer/SEL2VC_ft_b10_s42.pt",
+   "sha256_16": "8b0ade0996643e2d",
+   "size_bytes": 1669316,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b10_s1",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b10_s1.pt",
+   "sha256_16": "9fc799bb4d3e792d",
+   "size_bytes": 1669316,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b10_s2",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b10_s2.pt",
+   "sha256_16": "78134d463dd7b234",
+   "size_bytes": 1715243,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch010_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b10_s42",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b10_s42.pt",
+   "sha256_16": "a2a77fd4b19a6b2b",
+   "size_bytes": 1669316,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b100_s1",
+   "path": "checkpoints/transfer/SEL2VC_ft_b100_s1.pt",
+   "sha256_16": "a64ca9afbd351e4a",
+   "size_bytes": 1669316,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b100_s2",
+   "path": "checkpoints/transfer/SEL2VC_ft_b100_s2.pt",
+   "sha256_16": "afde1a2e4507dd90",
+   "size_bytes": 1714148,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_ft100_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_ft_b100_s42",
+   "path": "checkpoints/transfer/SEL2VC_ft_b100_s42.pt",
+   "sha256_16": "d890e6d234105b68",
+   "size_bytes": 1669316,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b100_s1",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b100_s1.pt",
+   "sha256_16": "aee5b279a1dc4bf5",
+   "size_bytes": 1669316,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b100_s2",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b100_s2.pt",
+   "sha256_16": "8298015cac8ac9db",
+   "size_bytes": 1715243,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s2_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_scratch100_seed2_best.pt"
+  },
+  {
+   "key": "transfer/SEL2VC_scratch_b100_s42",
+   "path": "checkpoints/transfer/SEL2VC_scratch_b100_s42.pt",
+   "sha256_16": "675c7d6d13b31f14",
+   "size_bytes": 1669316,
+   "description": "30 models: {ft (SEL-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target VC-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b1_s1",
+   "path": "checkpoints/transfer/VC2SEL_ft_b1_s1.pt",
+   "sha256_16": "e935927adb286771",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b001-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b1_s2",
+   "path": "checkpoints/transfer/VC2SEL_ft_b1_s2.pt",
+   "sha256_16": "962bfc34e4a6dfaf",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b001-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b1_s42",
+   "path": "checkpoints/transfer/VC2SEL_ft_b1_s42.pt",
+   "sha256_16": "fb5adfbf91b2a614",
+   "size_bytes": 1715668,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b001-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b2p5_s1",
+   "path": "checkpoints/transfer/VC2SEL_ft_b2p5_s1.pt",
+   "sha256_16": "08e7cb0d1db082bf",
+   "size_bytes": 1715668,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b0025-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b2p5_s2",
+   "path": "checkpoints/transfer/VC2SEL_ft_b2p5_s2.pt",
+   "sha256_16": "8e3947e2e60470ac",
+   "size_bytes": 1715668,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b0025-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b2p5_s42",
+   "path": "checkpoints/transfer/VC2SEL_ft_b2p5_s42.pt",
+   "sha256_16": "410b3bf3094f6408",
+   "size_bytes": 1715887,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b0025-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b5_s1",
+   "path": "checkpoints/transfer/VC2SEL_ft_b5_s1.pt",
+   "sha256_16": "18fda0f4d69ae996",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b005-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b5_s2",
+   "path": "checkpoints/transfer/VC2SEL_ft_b5_s2.pt",
+   "sha256_16": "b0026436541b5876",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b005-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b5_s42",
+   "path": "checkpoints/transfer/VC2SEL_ft_b5_s42.pt",
+   "sha256_16": "3aa5b407b2acc9cb",
+   "size_bytes": 1715668,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b005-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b10_s1",
+   "path": "checkpoints/transfer/VC2SEL_ft_b10_s1.pt",
+   "sha256_16": "36140d72db96b0c2",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b010-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b10_s2",
+   "path": "checkpoints/transfer/VC2SEL_ft_b10_s2.pt",
+   "sha256_16": "e95a9b7495af3344",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b010-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b10_s42",
+   "path": "checkpoints/transfer/VC2SEL_ft_b10_s42.pt",
+   "sha256_16": "c4f4f36a3cbbec7d",
+   "size_bytes": 1715668,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b010-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b100_s1",
+   "path": "checkpoints/transfer/VC2SEL_ft_b100_s1.pt",
+   "sha256_16": "0ceb40471eb8d418",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b100-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b100_s2",
+   "path": "checkpoints/transfer/VC2SEL_ft_b100_s2.pt",
+   "sha256_16": "f58bf0bf37759402",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b100-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_ft_b100_s42",
+   "path": "checkpoints/transfer/VC2SEL_ft_b100_s42.pt",
+   "sha256_16": "093f58f2a3d88429",
+   "size_bytes": 1715668,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-transfer-b100-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b1_s1",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b1_s1.pt",
+   "sha256_16": "be3522aaeb76e099",
+   "size_bytes": 1715230,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b001-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b1_s2",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b1_s2.pt",
+   "sha256_16": "c6915fabf1387255",
+   "size_bytes": 1715230,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b001-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b1_s42",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b1_s42.pt",
+   "sha256_16": "1e1e6fe4518e1a4d",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b001-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b2p5_s1",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b2p5_s1.pt",
+   "sha256_16": "7597143adc447c36",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b0025-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b2p5_s2",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b2p5_s2.pt",
+   "sha256_16": "40617173a78b122a",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b0025-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b2p5_s42",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b2p5_s42.pt",
+   "sha256_16": "e947a74eba6c02bb",
+   "size_bytes": 1715668,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b0025-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b5_s1",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b5_s1.pt",
+   "sha256_16": "14dc59f7ce1c0aa0",
+   "size_bytes": 1715230,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b005-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b5_s2",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b5_s2.pt",
+   "sha256_16": "1565e31538388680",
+   "size_bytes": 1715230,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b005-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b5_s42",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b5_s42.pt",
+   "sha256_16": "f04ea5f8288b6e2b",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b005-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b10_s1",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b10_s1.pt",
+   "sha256_16": "1aaffb7eda618dce",
+   "size_bytes": 1715230,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b010-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b10_s2",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b10_s2.pt",
+   "sha256_16": "1ec6a91a14bdd2c0",
+   "size_bytes": 1715230,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b010-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b10_s42",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b10_s42.pt",
+   "sha256_16": "a79698dd4089b7ec",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b010-s42_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b100_s1",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b100_s1.pt",
+   "sha256_16": "aed180ce22abdde6",
+   "size_bytes": 1715230,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b100-s1_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b100_s2",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b100_s2.pt",
+   "sha256_16": "3c85c935d1085efe",
+   "size_bytes": 1715230,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b100-s2_best.pt"
+  },
+  {
+   "key": "transfer/VC2SEL_scratch_b100_s42",
+   "path": "checkpoints/transfer/VC2SEL_scratch_b100_s42.pt",
+   "sha256_16": "c119ae4949818b5a",
+   "size_bytes": 1715449,
+   "description": "30 models: {transfer (VC-pretrained), scratch} x budgets {1,2.5,5,10,100}% x seeds {1,2,42}; target SEL-20-50 i2500 n20 S50, det_source_sce_mean, score_weighted_loss_flat, train_transfer",
+   "train": {
+    "config": "train_transfer",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_transfer_m-det_source_sce_mean_l-score_weighted_loss_flat_selsmall-scratch-b100-s42_best.pt"
+  },
+  {
+   "key": "architecture/CFLP-30-30-50_CV",
+   "path": "checkpoints/architecture/CFLP-30-30-50_CV.pt",
+   "sha256_16": "981fb89447b8084d",
+   "size_bytes": 1713414,
+   "description": "cflp (CV encoding, width 8) m30 n30 S50 i2500 s42, det_source_sce_mean, score_weighted_loss_flat, bs24 lr4.5e-4 single GPU, best epoch 99",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat",
+    "problem": "cflp_cv",
+    "batch_size": 24,
+    "lr": 0.00045
+   },
+   "trained_as": "s42_i2500_m30_n30_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "main/CFLP-70-70-50",
+   "path": "checkpoints/main/CFLP-70-70-50.pt",
+   "sha256_16": "e28927dacf81e3f7",
+   "size_bytes": 1709382,
+   "description": "cflp_ebp PS medium m70 n70 S50 i500 s42 det_source_sce_mean score_weighted_loss_flat tag w16ebp2",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat",
+    "batch_size": 24,
+    "lr": 0.00045
+   },
+   "trained_as": "s42_i500_m70_n70_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_s42_best.pt"
+  },
+  {
+   "key": "main/CFLP-70-70-100",
+   "path": "checkpoints/main/CFLP-70-70-100.pt",
+   "sha256_16": "d9e7b113c0c4a254",
+   "size_bytes": 1709601,
+   "description": "cflp_ebp PS large m70 n70 S100 i500 s42 tag w16ebp2",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat",
+    "batch_size": 16,
+    "lr": 0.0003
+   },
+   "trained_as": "s42_i500_m70_n70_s100__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_s42_best.pt"
+  },
+  {
+   "key": "main/CFLP-30-30-50",
+   "path": "checkpoints/main/CFLP-30-30-50.pt",
+   "sha256_16": "2d241e75c3d5ebf3",
+   "size_bytes": 1706909,
+   "description": "cflp_ebp (PS, width 6) m30 n30 S50 i2500 s42, det_source_sce_mean, score_weighted_loss_flat, bs24 lr4.5e-4, best epoch 91",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat",
+    "batch_size": 24,
+    "lr": 0.00045
+   },
+   "trained_as": "s42_i2500_m30_n30_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "distribution/CFLP-30-30-50_normal",
+   "path": "checkpoints/distribution/CFLP-30-30-50_normal.pt",
+   "sha256_16": "e465243c62cae495",
+   "size_bytes": 1706909,
+   "description": "cflp_ebp_normal PS m30 n30 S50 trained on normal demand, epoch 86",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_m30_n30_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "distribution/CFLP-30-30-50_mm",
+   "path": "checkpoints/distribution/CFLP-30-30-50_mm.pt",
+   "sha256_16": "c55b4e4e98a9b114",
+   "size_bytes": 1706909,
+   "description": "cflp_ebp_mm PS m30 n30 S50 trained on multimodal, epoch 55",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_m30_n30_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise010_s1",
+   "path": "checkpoints/supervision/VC-20-50_noise010_s1.pt",
+   "sha256_16": "98fa4958c7cbc232",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise010",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise010_s2",
+   "path": "checkpoints/supervision/VC-20-50_noise010_s2.pt",
+   "sha256_16": "d6ee522f81ca3d2f",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise010",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise010_s3",
+   "path": "checkpoints/supervision/VC-20-50_noise010_s3.pt",
+   "sha256_16": "afeb3d9c546a4ac7",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise010",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise010_s4",
+   "path": "checkpoints/supervision/VC-20-50_noise010_s4.pt",
+   "sha256_16": "8fc3d410911c0a3f",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise010",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise010_s42",
+   "path": "checkpoints/supervision/VC-20-50_noise010_s42.pt",
+   "sha256_16": "34b2790721caae1d",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise010",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise070_s1",
+   "path": "checkpoints/supervision/VC-20-50_noise070_s1.pt",
+   "sha256_16": "023640fbc030320a",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise070",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise070_s2",
+   "path": "checkpoints/supervision/VC-20-50_noise070_s2.pt",
+   "sha256_16": "bb1a13c832fd8c6d",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise070",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise070_s3",
+   "path": "checkpoints/supervision/VC-20-50_noise070_s3.pt",
+   "sha256_16": "51165e1e790d6e3f",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise070",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise070_s4",
+   "path": "checkpoints/supervision/VC-20-50_noise070_s4.pt",
+   "sha256_16": "3eb7c34c115952b9",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise070",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_noise070_s42",
+   "path": "checkpoints/supervision/VC-20-50_noise070_s42.pt",
+   "sha256_16": "e882ac87a5e330e1",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_noise070",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_permute_s1",
+   "path": "checkpoints/supervision/VC-20-50_permute_s1.pt",
+   "sha256_16": "273bf9ae9372762c",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_permute",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_permute_s2",
+   "path": "checkpoints/supervision/VC-20-50_permute_s2.pt",
+   "sha256_16": "036ee175be036720",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_permute",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_permute_s3",
+   "path": "checkpoints/supervision/VC-20-50_permute_s3.pt",
+   "sha256_16": "f50ea0a69b37cccd",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_permute",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_permute_s4",
+   "path": "checkpoints/supervision/VC-20-50_permute_s4.pt",
+   "sha256_16": "e4c248da3d439e34",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_permute",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_permute_s42",
+   "path": "checkpoints/supervision/VC-20-50_permute_s42.pt",
+   "sha256_16": "de8f0679857491a2",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_permute",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_remap_s1",
+   "path": "checkpoints/supervision/VC-20-50_remap_s1.pt",
+   "sha256_16": "bb009092b78b5f4c",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_remap",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_remap_s2",
+   "path": "checkpoints/supervision/VC-20-50_remap_s2.pt",
+   "sha256_16": "9681b9e0c89cca4b",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_remap",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_remap_s3",
+   "path": "checkpoints/supervision/VC-20-50_remap_s3.pt",
+   "sha256_16": "e1a0bb473743319c",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_remap",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_remap_s4",
+   "path": "checkpoints/supervision/VC-20-50_remap_s4.pt",
+   "sha256_16": "595be903340e01c1",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_remap",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  },
+  {
+   "key": "supervision/VC-20-50_remap_s42",
+   "path": "checkpoints/supervision/VC-20-50_remap_s42.pt",
+   "sha256_16": "2df465e164d082aa",
+   "size_bytes": 1714586,
+   "description": "vertex_cover n20 S50 i2500 (data file s42), training seeds {1,2,3,4,42} via +train.seed, det_source_sce_mean, score_weighted_loss_flat, train_scale_norm bs32 lr6e-4 patience 10, label_type prise_remap",
+   "train": {
+    "config": "train_scale_norm",
+    "model": "det_source_sce_mean",
+    "loss": "score_weighted_loss_flat"
+   },
+   "trained_as": "s42_i2500_n20_s50__c-train_scale_norm_m-det_source_sce_mean_l-score_weighted_loss_flat_best.pt"
+  }
+ ]
+}

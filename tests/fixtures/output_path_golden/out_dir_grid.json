@@ -1,0 +1,146 @@
+[
+  {
+    "k_ratio": 0.2,
+    "name": "",
+    "output_dir": "x",
+    "result_relpath": "x/e2e_2ro/k_0.2"
+  },
+  {
+    "k_ratio": 0.01,
+    "name": "",
+    "output_dir": "x",
+    "result_relpath": "x/e2e_2ro/k_0.01"
+  },
+  {
+    "k_ratio": 1,
+    "name": "",
+    "output_dir": "x",
+    "result_relpath": "x/e2e_2ro/k_1"
+  },
+  {
+    "k_ratio": "0.20",
+    "name": "",
+    "output_dir": "x",
+    "result_relpath": "x/e2e_2ro/k_0.20"
+  },
+  {
+    "k_ratio": 0.2,
+    "name": "N90",
+    "output_dir": "x",
+    "result_relpath": "x/N90/e2e_2ro/k_0.2"
+  },
+  {
+    "k_ratio": 0.01,
+    "name": "N90",
+    "output_dir": "x",
+    "result_relpath": "x/N90/e2e_2ro/k_0.01"
+  },
+  {
+    "k_ratio": 1,
+    "name": "N90",
+    "output_dir": "x",
+    "result_relpath": "x/N90/e2e_2ro/k_1"
+  },
+  {
+    "k_ratio": "0.20",
+    "name": "N90",
+    "output_dir": "x",
+    "result_relpath": "x/N90/e2e_2ro/k_0.20"
+  },
+  {
+    "k_ratio": 0.2,
+    "name": " pad ",
+    "output_dir": "x",
+    "result_relpath": "x/pad/e2e_2ro/k_0.2"
+  },
+  {
+    "k_ratio": 0.01,
+    "name": " pad ",
+    "output_dir": "x",
+    "result_relpath": "x/pad/e2e_2ro/k_0.01"
+  },
+  {
+    "k_ratio": 1,
+    "name": " pad ",
+    "output_dir": "x",
+    "result_relpath": "x/pad/e2e_2ro/k_1"
+  },
+  {
+    "k_ratio": "0.20",
+    "name": " pad ",
+    "output_dir": "x",
+    "result_relpath": "x/pad/e2e_2ro/k_0.20"
+  },
+  {
+    "k_ratio": 0.2,
+    "name": "",
+    "output_dir": "x",
+    "result_relpath": "x/e2e_2ro/k_0.2"
+  },
+  {
+    "k_ratio": 0.01,
+    "name": "",
+    "output_dir": "x",
+    "result_relpath": "x/e2e_2ro/k_0.01"
+  },
+  {
+    "k_ratio": 1,
+    "name": "",
+    "output_dir": "x",
+    "result_relpath": "x/e2e_2ro/k_1"
+  },
+  {
+    "k_ratio": "0.20",
+    "name": "",
+    "output_dir": "x",
+    "result_relpath": "x/e2e_2ro/k_0.20"
+  },
+  {
+    "k_ratio": 0.2,
+    "name": "N90",
+    "output_dir": "x",
+    "result_relpath": "x/N90/e2e_2ro/k_0.2"
+  },
+  {
+    "k_ratio": 0.01,
+    "name": "N90",
+    "output_dir": "x",
+    "result_relpath": "x/N90/e2e_2ro/k_0.01"
+  },
+  {
+    "k_ratio": 1,
+    "name": "N90",
+    "output_dir": "x",
+    "result_relpath": "x/N90/e2e_2ro/k_1"
+  },
+  {
+    "k_ratio": "0.20",
+    "name": "N90",
+    "output_dir": "x",
+    "result_relpath": "x/N90/e2e_2ro/k_0.20"
+  },
+  {
+    "k_ratio": 0.2,
+    "name": " pad ",
+    "output_dir": "x",
+    "result_relpath": "x/pad/e2e_2ro/k_0.2"
+  },
+  {
+    "k_ratio": 0.01,
+    "name": " pad ",
+    "output_dir": "x",
+    "result_relpath": "x/pad/e2e_2ro/k_0.01"
+  },
+  {
+    "k_ratio": 1,
+    "name": " pad ",
+    "output_dir": "x",
+    "result_relpath": "x/pad/e2e_2ro/k_1"
+  },
+  {
+    "k_ratio": "0.20",
+    "name": " pad ",
+    "output_dir": "x",
+    "result_relpath": "x/pad/e2e_2ro/k_0.20"
+  }
+]

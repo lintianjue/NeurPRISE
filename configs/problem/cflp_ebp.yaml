@@ -1,0 +1,48 @@
+name: cflp_ebp
+module: src.problems.cflp.CFLPEntityBipartiteProblem
+
+solver:
+  exact: true
+  time_limit: ${solver.time_limit}
+  mip_gap: ${solver.mip_gap}
+  threads: ${solver.threads}
+  verbose: ${solver.verbose}
+  prise_time_limit: ${solver.prise_time_limit}
+  prise_verbose: ${solver.prise_verbose}
+
+instance:
+  # Zeng & Zhao (2013) random instance generation ranges
+  n_facilities: 30
+  n_customers: 30
+  n_scenarios: 10
+
+  f_min: 100.0
+  f_max: 1000.0
+  a_min: 10.0
+  a_max: 100.0
+  K_min: 200.0
+  K_max: 700.0
+  c_min: 1.0
+  c_max: 1000.0
+  d_min: 10.0
+  d_max: 500.0
+
+  scenario_name: "uniform"
+
+embed:
+  node_feature_dim: 6
+  det_feature_dim: 6
+
+metrics:
+  - obj
+  - feas
+
+data:
+  path: ${oc.env:NEURPRISE_INPUT_ROOT}/data/
+  inst_spec_pattern: "inst_seed{seed}_cnt{instance_cnt}_m{n_facilities}_n{n_customers}_s{n_scenarios}_scen_{scenario_name}.pkl"
+  inst_spec_label_pattern: "label_{label_type}_seed{seed}_cnt{instance_cnt}_m{n_facilities}_n{n_customers}_s{n_scenarios}_scen_{scenario_name}.pkl"
+  # Which physical label file to READ. null = the undecorated name (or whatever
+  # label.prise.output selects, unchanged). Set to consume a variant the labeller
+  # does not produce -- e.g. "merged500" for the 500-record role-merged file built
+  # by scripts/pipeline/merge_label_roles.py. See src/utils/label_roles.py.
+  label_variant: null

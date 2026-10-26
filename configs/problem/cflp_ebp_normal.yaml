@@ -1,0 +1,54 @@
+name: cflp_ebp_normal
+module: src.problems.cflp.CFLPEntityBipartiteProblem
+
+solver:
+  exact: true
+  time_limit: ${solver.time_limit}
+  mip_gap: ${solver.mip_gap}
+  threads: ${solver.threads}
+  verbose: ${solver.verbose}
+  prise_time_limit: ${solver.prise_time_limit}
+  prise_verbose: ${solver.prise_verbose}
+
+instance:
+  # Zeng & Zhao (2013)-style base ranges
+  n_facilities: 30
+  n_customers: 30
+  n_scenarios: 10
+
+  f_min: 100.0
+  f_max: 1000.0
+  a_min: 10.0
+  a_max: 100.0
+  K_min: 200.0
+  K_max: 700.0
+  c_min: 1.0
+  c_max: 1000.0
+  d_min: 10.0
+  d_max: 500.0
+
+  scenario_name: "normal"
+  scenario_generator:
+    _target_: src.problems.scenario_generator.CFLPNormalDemandScenarioGenerator
+    demand_min: 10.0
+    demand_max: 500.0
+    mu_min: 180.0
+    mu_max: 260.0
+    sigma_ratio: 0.08
+    sigma_min: 12.0
+    sigma_max: 22.0
+    fixed_profile: true
+    clip_to_bounds: true
+
+embed:
+  node_feature_dim: 6
+  det_feature_dim: 6
+
+metrics:
+  - obj
+  - feas
+
+data:
+  path: ${oc.env:NEURPRISE_INPUT_ROOT}/data/
+  inst_spec_pattern: "inst_seed{seed}_cnt{instance_cnt}_m{n_facilities}_n{n_customers}_s{n_scenarios}_scen_{scenario_name}.pkl"
+  inst_spec_label_pattern: "label_{label_type}_seed{seed}_cnt{instance_cnt}_m{n_facilities}_n{n_customers}_s{n_scenarios}_scen_{scenario_name}.pkl"

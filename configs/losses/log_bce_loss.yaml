@@ -1,0 +1,10 @@
+_target_: src.training.log_bce_loss.log_bce_loss
+name: log_bce_loss
+
+# Use marginal gains (same as score_weighted_kl_loss)
+gains_attr: gains
+
+# Log compresses the magnitude before normalising to [0, 1]
+target_transform: log
+
+reduction: mean

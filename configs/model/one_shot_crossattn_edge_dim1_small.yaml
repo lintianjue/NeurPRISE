@@ -1,0 +1,24 @@
+_target_: src.models.scenario_reducer.ScenarioReducer
+name: "one_shot_crossattn_edge_dim1_small"
+
+encoder:
+  _target_: src.models.encoders.gnn_base.GNNBasedEncoder
+  node_in_dim: ${problem.embed.node_feature_dim}
+  scen_hidden_dim: 128
+  scen_out_dim: 64
+  num_gcn_layers: 2
+  det_hidden_dim: 128
+  det_out_dim: 64
+  set_num_heads: 8
+  set_num_layers: 2
+  set_ff_dim: 128
+  det_context_source: det_graph
+  gnn_type: standard
+  edge_attr_dim: 1
+
+decoder:
+  _target_: src.models.decoders.attention_set_decoder.AttentionSetDecoder
+  det_dim: ${model.encoder.det_out_dim}   # Query comes from deterministic context
+  sce_dim: ${model.encoder.scen_out_dim}  # Keys come from scenarios
+  num_heads: 4                            # Tunable, 4 or 8 is good
+  head_dim: 32                            # Tunable

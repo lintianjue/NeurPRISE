@@ -1,0 +1,49 @@
+# configs/exp/eval.yaml
+
+defaults:
+  - exp
+  - _self_
+
+stage: "eval"
+
+eval:
+  split: "val_test"
+  seed: null  # optional eval-only RNG seed override; keeps cfg.seed for data identity
+  ckpt_path: "outputs/2025-12-07/17-35-27/best_model/best.pt"
+
+  metrics: ["risk", "regret"]
+  batch_size: ${data.batch_size}
+  num_workers: ${data.num_workers}
+  output_dir: ""
+  load_ckpt: true
+  k_ratio: 0.1
+  name: "ml_eval" # output result folder name
+  device: cuda
+  debug_force_teacher: false
+
+  # --- Generalization eval: decouple eval data file from model checkpoint ---
+  # If true, evaluation will load a different instance+label pickle file by
+  # overriding the dataset-identifying parameters used for filename resolution.
+  use_alt_data: false
+
+  # Only used when use_alt_data=true
+  data_override:
+    # Required for override mode
+    instance_cnt: 500
+    n_nodes: 50
+    n_facilities: null
+    n_customers: null
+    n_scenarios: 50
+
+    # Optional: only matters if your filename pattern uses these fields
+    p_edge: 10
+    scenario_name: null
+    seed: 42
+
+  # Declared, null-by-default outcome assertions checked by
+  # `assert_eval_expectations` before the first solve.
+  expect:
+    label_sha256: null
+    population: null
+    test_instances: null
+    num_workers: null

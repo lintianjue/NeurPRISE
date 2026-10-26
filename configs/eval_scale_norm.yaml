@@ -1,0 +1,9 @@
+# Evaluation config for checkpoints trained with train_scale_norm (per-instance scale normalisation).
+
+defaults:
+  - eval
+  - _self_
+
+data:
+  normalize: true
+  normalize_mode: scale

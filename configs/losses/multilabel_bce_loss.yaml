@@ -1,0 +1,14 @@
+# configs/losses/scenario_multilabel_bce_loss.yaml
+_target_: src.training.scenario_multilabel_bce_loss.scenario_multilabel_bce_loss
+name: multilabel_bce_loss
+
+# labels
+top_idx_attr: sce_top_idx
+trace_attr: forward_trace
+step_mask_attr: step_mask
+
+# reduction
+reduction: mean
+
+# optional: upweight positives (set null to disable)
+pos_weight: null

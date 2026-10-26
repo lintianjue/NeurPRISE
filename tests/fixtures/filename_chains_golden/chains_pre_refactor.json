@@ -1,0 +1,140 @@
+[
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform.pkl",
+      "role_contract": "'train_val_test'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_n50_s100_pNone_scen_uniform.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [],
+    "problem": "vertex_cover"
+  },
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform_bigmilp.pkl",
+      "role_contract": "'eval_only'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_n50_s100_pNone_scen_uniform_bigmilp.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [
+      "label.prise.output=bigmilp"
+    ],
+    "problem": "vertex_cover"
+  },
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_n8_s10_p10_scen_uniform_merged500.pkl",
+      "role_contract": "'train_val_test'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_n50_s100_pNone_scen_uniform_merged500.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [
+      "problem.data.label_variant=merged500"
+    ],
+    "problem": "vertex_cover"
+  },
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform.pkl",
+      "role_contract": "'train_val_test'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_n50_s100_p25_scen_uniform.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [],
+    "problem": "selection"
+  },
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform_bigmilp.pkl",
+      "role_contract": "'eval_only'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_n50_s100_p25_scen_uniform_bigmilp.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [
+      "label.prise.output=bigmilp"
+    ],
+    "problem": "selection"
+  },
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_n50_s10_p25_scen_uniform_merged500.pkl",
+      "role_contract": "'train_val_test'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_n50_s100_p25_scen_uniform_merged500.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [
+      "problem.data.label_variant=merged500"
+    ],
+    "problem": "selection"
+  },
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform.pkl",
+      "role_contract": "'train_val_test'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_m70_n70_s100_scen_uniform.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [],
+    "problem": "cflp_ebp"
+  },
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform_bigmilp.pkl",
+      "role_contract": "'eval_only'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_m70_n70_s100_scen_uniform_bigmilp.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [
+      "label.prise.output=bigmilp"
+    ],
+    "problem": "cflp_ebp"
+  },
+  {
+    "create_problem_module": {
+      "data_path": "./data/",
+      "file_name": "label_prise_seed42_cnt100_m30_n30_s10_scen_uniform_merged500.pkl",
+      "role_contract": "'train_val_test'"
+    },
+    "create_problem_module_with_data_override": {
+      "file_name": "label_prise_seed42_cnt500_m70_n70_s100_scen_uniform_merged500.pkl"
+    },
+    "label_type_cfg_label": "prise",
+    "label_type_cfg_problem_data": "prise",
+    "overrides": [
+      "problem.data.label_variant=merged500"
+    ],
+    "problem": "cflp_ebp"
+  }
+]

@@ -1,0 +1,24 @@
+_target_: src.models.scenario_reducer.ScenarioReducer
+name: "config_early_fusion_mlp"
+
+encoder:
+  _target_: src.models.encoders.gnn_base.GNNBasedEncoder
+  node_in_dim: ${problem.embed.node_feature_dim}
+  scen_hidden_dim: 128
+  scen_out_dim: 64
+  num_gcn_layers: 2
+  det_hidden_dim: 128
+  det_out_dim: 64
+  set_num_heads: 8
+  set_num_layers: 2           # <--- CRITICAL: Keeps diversity logic in encoder
+  set_ff_dim: 128
+  det_context_source: det_graph
+  gnn_type: standard
+  edge_attr_dim: 1
+
+  fusion_mode: early              # Inject Global Token (Fixes "Lieutenant" problem)
+
+decoder:
+  _target_: src.models.decoders.attention_set_decoder.MLPSetDecoder
+  sce_dim: ${model.encoder.scen_out_dim}
+  hidden_dim: 128

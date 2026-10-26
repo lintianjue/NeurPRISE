@@ -1,0 +1,44 @@
+name: selection_mm
+module: src.problems.selection.SelectionProblem
+
+solver:
+  exact: true
+  time_limit: ${solver.time_limit}
+  mip_gap: ${solver.mip_gap}
+  threads: ${solver.threads}
+  verbose: ${solver.verbose}
+  prise_time_limit: ${solver.prise_time_limit}
+  prise_verbose: ${solver.prise_verbose}
+
+instance:
+  n_nodes: 50
+  n_scenarios: 10
+  p_select: 25
+
+  n_min_cost: 1
+  n_max_cost: 100
+
+  scenario_name: "multimodal"
+  scenario_generator:
+    _target_: src.problems.scenario_generator.MultimodalScenarioGenerator
+    det_min_cost: 25
+    det_max_cost: 75
+    mu_min_cost: 25
+    mu_max_cost: 75
+    delta_min: 0.1
+    delta_max: 0.5
+    K_min: 3
+    K_max: 8
+
+embed:
+  node_feature_dim: 8
+  det_feature_dim: 8
+
+metrics:
+  - obj
+  - feas
+
+data:
+  path: ${oc.env:NEURPRISE_INPUT_ROOT}/data/
+  inst_spec_pattern: "inst_seed{seed}_cnt{instance_cnt}_n{n_nodes}_s{n_scenarios}_p{p_select}_scen_{scenario_name}.pkl"
+  inst_spec_label_pattern: "label_{label_type}_seed{seed}_cnt{instance_cnt}_n{n_nodes}_s{n_scenarios}_p{p_select}_scen_{scenario_name}.pkl"
