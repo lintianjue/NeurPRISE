@@ -24,7 +24,7 @@ Advanced overrides are covered under [Custom directories](#custom-directories).
 checkpoints/<experiment>/<tag>[_<variant>].pt   NeurPRISE models, e.g. main/SEL-20-50.pt,
                                       seeds/VC-20-50_s1.pt, transfer/SEL2VC_ft_b5_s42.pt
 data/<problem>/inst_*.pkl             test instances                                655 MB
-data/<problem>/label_prise_*.pkl      exact labels V(Ξ), x* for the evaluated instances   279 MB
+data/<problem>/label_prise_*.pkl      exact labels V(Ξ), x* for the evaluated instances   475 MB
 eval_regret/full_objs_cache.json      V(Ξ) of every test instance
 ```
 
